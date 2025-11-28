@@ -94,7 +94,9 @@
     <div id="mobile-nav">
         <div class="header-part">
             <a href="<?php bloginfo('url'); ?>/">
-                <img class="menu-img" src="<?php bloginfo('template_url'); ?>/img/logo2.svg"
+                <img class="menu-img pc" src="<?php bloginfo('template_url'); ?>/img/logo.svg"
+                    alt="<?php wp_title(); ?>" />
+                <img class="menu-img sp" src="<?php bloginfo('template_url'); ?>/img/logo2.svg"
                     alt="<?php wp_title(); ?>" />
             </a>
         </div>
@@ -104,103 +106,71 @@
                     <ul class="mobile-nav-menu">
                         <li>
                             <a class="menu-link" href="<?php bloginfo('url'); ?>/">
-                                <span class="font-14-700">トップページ</span>
+                                <span class="font-18-500">トップページ</span>
                             </a>
                         </li>
                         <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/concept/">
-                                <span class="font-14-500">MURAKAMI STYLE</span>
+                            <a class="menu-link" href="<?php bloginfo('url'); ?>/reason/">
+                                <span class="font-18-500">選ばれる理由</span>
                             </a>
                         </li>
                         <li class="has_submenu">
                             <div class="menu-link">
-                                <span class="font-14-500">家づくりのこだわり</span>
+                                <span class="font-18-500">事業内容</span>
                                 <div class="btn-extend"></div>
                             </div>
                             <div class="sub-menus">
                                 <ul class="sub-menu">
                                     <a href="<?php bloginfo('url'); ?>/material/" class="sub-menu-link">
-                                        <span class="font-14-500">− 人と自然に優しい素材</span>
+                                        <span class="font-18-500">重機事業</span>
                                     </a>
                                     <a href="<?php bloginfo('url'); ?>/design/" class="sub-menu-link">
-                                        <span class="font-14-500">− テ暮らしから考える設計</span>
-                                    </a>
-                                    <a href="<?php bloginfo('url'); ?>/structure/" class="sub-menu-link">
-                                        <span class="font-14-500">− 年中快適に過ごす仕組み</span>
+                                        <span class="font-18-500">建築事業</span>
                                     </a>
                                 </ul>
                             </div>
                         </li>
-                        <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/flow/">
-                                <span class="font-14-500">家づくりのステップ</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/modelhouse/">
-                                <span class="font-14-500">モデルハウス</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/reform/">
-                                <span class="font-14-500">リフォーム</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/restaurant/">
-                                <span class="font-14-500">レストラン・AIRBNB</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/faq/">
-                                <span class="font-14-500">よくある質問</span>
-                            </a>
-                        </li>
                     </ul>
                     <ul class="mobile-nav-menu">
                         <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/case/">
-                                <span class="font-14-500">建築事例</span>
+                            <a class="menu-link" href="<?php bloginfo('url'); ?>/company/">
+                                <span class="font-18-500">会社概要</span>
                             </a>
                         </li>
                         <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/voice/">
-                                <span class="font-14-500">お客様の声</span>
+                            <a class="menu-link" href="<?php bloginfo('url'); ?>/recruit/">
+                                <span class="font-18-500">採用情報</span>
                             </a>
                         </li>
                         <li class="has_submenu">
                             <div class="menu-link">
-                                <span class="font-14-500">イベント情報</span>
+                                <span class="font-18-500">ブログ</span>
                                 <div class="btn-extend"></div>
                             </div>
                             <div class="sub-menus">
                                 <ul class="sub-menu">
                                     <a href="<?php bloginfo('url'); ?>/news/" class="sub-menu-link">
-                                        <span class="font-14-500">− お知らせ</span>
+                                        <span class="font-18-500">お知らせ</span>
                                     </a>
                                     <a href="<?php bloginfo('url'); ?>/column/" class="sub-menu-link">
-                                        <span class="font-14-500">− コラム</span>
+                                        <span class="font-18-500">コラム</span>
                                     </a>
-                                    <a href="<?php bloginfo('url'); ?>/subsidy/" class="sub-menu-link">
-                                        <span class="font-14-500">− 補助金情報</span>
+                                    <a href="<?php bloginfo('url'); ?>/stuff/" class="sub-menu-link">
+                                        <span class="font-18-500">スタッフブログ</span>
                                     </a>
                                 </ul>
                             </div>
-                        </li>
-                        <li>
-                            <a class="menu-link" href="<?php bloginfo('url'); ?>/company/">
-                                <span class="font-14-500">会社概要</span>
-                            </a>
                         </li>
                     </ul>
                 </div>
                 <div class="address-contact">
                     <p class="label font-14-700">お電話でのお問い合わせ</p>
-                    <a class="btn-tel" href="tel:0264-23-2002">
-                        <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/telicon.svg" alt="TELアイコン">
-                        <span class="btn-text font-30-500">0264-23-2002</span>
+                    <a class="btn-tel" href="tel:025-287-3140">
+                        <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/icontelblue.svg"
+                            alt="TELアイコン">
+                        <span class="btn-text font-30-700 font-tel">025-287-3140</span>
                     </a>
-                    <p class="holiday font-14-500">営業時間/8:00-16:00 定休日/月曜・祝日</p>
+                    <p class="holiday font-14-500">営業時間/8:00-16:00 定休日/土日・祝日</p>
                     <a class="btn-mail" href="<?php bloginfo('url'); ?>/contact/">
                         <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/mailicon.svg" alt="メールアイコン">
                         <span class="btn-text font-16-700">メールでのお問い合わせ</span>

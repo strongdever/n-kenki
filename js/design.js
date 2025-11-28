@@ -348,122 +348,32 @@ $(function () {
             localStorage.setItem("scrollPos", $(window).scrollTop());
         });
         //mw wp form button----------------------
-    });
 
-    // --------------image gallery(modelhouse)------------->
-    $('[data-fancybox="gallery"]').fancybox({
-        buttons: [
-            "slideShow",
-            "thumbs",
-            "zoom",
-            "fullScreen",
-            "share",
-            "close"
-        ],
-        loop: false,
-        protect: true
+        // ------------------blog section---------------->
+        // Hide all panels except the active one on page load
+        $('.blog-panel .items-list').hide();
+        $('.news-panel').show(); // Show the news panel by default
+
+        // Handle tab clicks
+        $('.blog-tab').on('click', function () {
+            // Remove 'active' class from all tabs and add it to the clicked tab
+            $('.blog-tab').removeClass('active');
+            $(this).addClass('active');
+
+            // Hide all panels
+            $('.blog-panel .items-list').hide();
+
+            // Show the panel corresponding to the clicked tab
+            if ($(this).hasClass('tab-news')) {
+                $('.news-panel').show();
+            } else if ($(this).hasClass('tab-column')) {
+                $('.column-panel').show();
+            } else if ($(this).hasClass('tab-staff')) {
+                $('.staff-panel').show(); // Note: Your HTML has 'staff-list' for staff panel
+            }
+        });
+        // <------------------blog section----------------
     });
-    // <--------------image gallery(modelhouse)-------------
 });
-
-// ----------------FAQ code------------------>
-let question = document.querySelectorAll(".question");
-question.forEach(question => {
-    question.addEventListener("click", event => {
-        const active = document.querySelector(".question.active");
-        if (active && active !== question) {
-            active.classList.toggle("active");
-            active.nextElementSibling.style.maxHeight = 0;
-
-            const acrtive_faq_item = active.parentElement;
-            acrtive_faq_item.classList.toggle('extended');
-        }
-        question.classList.toggle("active");
-        const answer = question.nextElementSibling;
-
-        const faq_item = question.parentElement;
-        faq_item.classList.toggle('extended');
-        if (question.classList.contains("active")) {
-            answer.style.maxHeight = answer.scrollHeight + "px";
-        } else {
-            answer.style.maxHeight = 0;
-        }
-    })
-})
-// <----------------FAQ code------------------
-
-// -----------image gallery code(restaurant, フォトギャラリー)------------
-$(document).ready(function () {
-    // Cache selectors for better performance
-    const $mainImage = $('#main-image');
-    const $thumbnails = $('.thumbnail');
-
-    // Click event for thumbnails
-    $thumbnails.on('click', function () {
-        const $this = $(this);
-        const newImageSrc = $this.data('image');
-
-        // Add fade out effect to main image
-        $mainImage.fadeOut(100, function () {
-            // Change the image source
-            $mainImage.attr('src', newImageSrc);
-
-            // Fade in the new image
-            $mainImage.fadeIn(100);
-        });
-
-        // Update active state
-        $thumbnails.removeClass('active');
-        $this.addClass('active');
-    });
-
-    // Optional: Add keyboard navigation
-    $(document).on('keydown', function (e) {
-        const $activeThumb = $('.thumbnail.active');
-        let $nextThumb;
-
-        if (e.key === 'ArrowRight') {
-            $nextThumb = $activeThumb.next('.thumbnail');
-            if (!$nextThumb.length) {
-                $nextThumb = $thumbnails.first();
-            }
-        } else if (e.key === 'ArrowLeft') {
-            $nextThumb = $activeThumb.prev('.thumbnail');
-            if (!$nextThumb.length) {
-                $nextThumb = $thumbnails.last();
-            }
-        }
-
-        if ($nextThumb && $nextThumb.length) {
-            $nextThumb.trigger('click');
-        }
-    });
-
-    // Optional: Preload images for better user experience
-    function preloadImages() {
-        const imageUrls = [];
-
-        $thumbnails.each(function () {
-            const mainImageUrl = $(this).data('image');
-            const thumbnailUrl = $(this).find('img').attr('src');
-
-            if (!imageUrls.includes(mainImageUrl)) {
-                imageUrls.push(mainImageUrl);
-            }
-            if (!imageUrls.includes(thumbnailUrl)) {
-                imageUrls.push(thumbnailUrl);
-            }
-        });
-
-        imageUrls.forEach(url => {
-            const img = new Image();
-            img.src = url;
-        });
-    }
-
-    // Call preload function
-    preloadImages();
-});
-// <-----------image gallery code-----------
 
 //<---------------pretty-baby code----------------

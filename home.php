@@ -3,20 +3,23 @@
 <main id="top-page" class="main-common">
     <div class="mainview">
         <div class="left-part">
-            <h2 class="mainview-title font-40-700">
-                工場の未来を動かす、<br>
-                重量物移設のプロ集団。
-            </h2>
-            <p class="mainview-desc font-16-700">
-                生産ラインの変更、大型機械やキュービクルの搬入・据付は、<br>
-                「安全」と「技術」のKEnKIにお任せください。
-            </p>
-            <a class="btn-arrow with-circle-arrow" href="<?php bloginfo('url'); ?>/contact/">
-                <span class="btn-text font-16-700">お見積り・ご相談はこちら</span>
-                <div class="circle-arrow">
-                    <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/rightarrowicon.svg" alt="矢印アイコン">
-                </div>
-            </a>
+            <div class="part-container">
+                <h2 class="mainview-title font-40-700">
+                    工場の未来を動かす、<br>
+                    重量物移設のプロ集団。
+                </h2>
+                <p class="mainview-desc font-16-700">
+                    生産ラインの変更、大型機械やキュービクルの<br class="sp">搬入・据付は、<br class="pc">
+                    「安全」と「技術」の<br class="sp">KEnKIにお任せください。
+                </p>
+                <a class="btn-arrow with-circle-arrow" href="<?php bloginfo('url'); ?>/contact/">
+                    <span class="btn-text font-16-700">お見積り・ご相談はこちら</span>
+                    <div class="circle-arrow">
+                        <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/rightarrowicon.svg"
+                            alt="矢印アイコン">
+                    </div>
+                </a>
+            </div>
             <img class="right-arrow" src="<?php bloginfo('template_url'); ?>/img/mainviewarrowimg.png" alt="矢印アイコン">
         </div>
         <div class="right-part">
@@ -26,7 +29,7 @@
                 <img class="thumb-item" src="<?php bloginfo('template_url'); ?>/img/mainviewbg12.jpg" alt="重量物移設のプロ集団">
                 <img class="thumb-item" src="<?php bloginfo('template_url'); ?>/img/mainviewbg13.jpg" alt="重量物移設のプロ集団">
             </div>
-            <p class="right-desc font-20-700">
+            <p class="right-desc font-20-700 font-tel">
                 POWERING THE FUTURE OF FACTORIES.
             </p>
         </div>
@@ -36,836 +39,493 @@
         <div class="container">
             <div class="left-right">
                 <div class="section-title">
-                    <h2 class="jp-title font-30-500">お知らせ</h2>
-                    <p class="en-title font-12-500 main-color">NEWS</p>
+                    <p class="en-title font-60-700 font-en main-color">NEWS</p>
+                    <h2 class="jp-title font-16-700">お知らせ</h2>
                 </div>
                 <ul class="news-list">
                     <li>
-                        <a class="news-item with-circle-arrow" href="">
-                            <div class="item-wrapper">
-                                <div class="date-cat">
-                                    <p class="date font-15-600">2025.10.20</p>
-                                    <p class="news-cat font-15-500">イベント</p>
-                                </div>
-                                <h3 class="news-title font-16-500">令和4年9月24日(土)感謝祭開催のお知らせ</h3>
+                        <a class="news-item" href="">
+                            <div class="date-cat">
+                                <p class="date font-18-500 font-roboto">2025.10.20</p>
                             </div>
-                            <div class="circle-arrow">
-                                <img class="arrow-icon" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg"
-                                    alt="矢印アイコン">
-                            </div>
+                            <h3 class="news-title font-16-500">年末年始の営業スケジュールについて</h3>
                         </a>
                     </li>
                 </ul>
-                <span class="section-title blank-part pc"></span>
-            </div>
-        </div>
-    </section>
-
-    <section class="event-section section-type1">
-        <div class="container">
-            <div class="section-title">
-                <h2 class="jp-title font-30-500">イベント情報</h2>
-                <p class="en-title font-12-500 main-color">EVENT</p>
-            </div>
-            <div class="item-list">
-                <li>
-                    <a class="list-item" href="">
-                        <div class="thumb-wrapper">
-                            <p class="thumb-status font-12-700">募集中</p>
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/eventimg001.jpg"
-                                alt="抜群の収納力と最短家事動線の平屋">
-                        </div>
-                        <div class="item-content">
-                            <div class="cats">
-                                <p class="cat font-12-700">リフォーム</p>
-                            </div>
-                            <h3 class="item-title font-16-600">家族の時間とアトリエの時間。</h3>
-                            <div class="row-list">
-                                <div class="row-item">
-                                    <!-- <div class="row-label font-12-400">開催日時</div> -->
-                                    <p class="row-value font-13-400">2024.10.25　~　2024.10.30</p>
-                                </div>
-                                <div class="row-item">
-                                    <!-- <div class="row-label font-14-400">開催場所</div> -->
-                                    <p class="row-value font-13-500">長野県木曽郡木曽町日義4800番1</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="list-item" href="">
-                        <div class="thumb-wrapper">
-                            <p class="thumb-status font-12-700">募集中</p>
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/eventimg002.jpg"
-                                alt="抜群の収納力と最短家事動線の平屋">
-                        </div>
-                        <div class="item-content">
-                            <div class="cats">
-                                <p class="cat font-12-700">リフォーム</p>
-                            </div>
-                            <h3 class="item-title font-16-600">家族の時間とアトリエの時間。</h3>
-                            <div class="row-list">
-                                <div class="row-item">
-                                    <!-- <div class="row-label font-12-400">開催日時</div> -->
-                                    <p class="row-value font-13-400">2024.10.25　~　2024.10.30</p>
-                                </div>
-                                <div class="row-item">
-                                    <!-- <div class="row-label font-14-400">開催場所</div> -->
-                                    <p class="row-value font-13-500">長野県木曽郡木曽町日義4800番1</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a class="list-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/eventimg003.jpg"
-                                alt="抜群の収納力と最短家事動線の平屋">
-                        </div>
-                        <div class="item-content">
-                            <div class="cats">
-                                <p class="cat font-12-700">リフォーム</p>
-                            </div>
-                            <h3 class="item-title font-16-600">家族の時間とアトリエの時間。</h3>
-                            <div class="row-list">
-                                <div class="row-item">
-                                    <!-- <div class="row-label font-12-400">開催日時</div> -->
-                                    <p class="row-value font-13-400">2024.10.25　~　2024.10.30</p>
-                                </div>
-                                <div class="row-item">
-                                    <!-- <div class="row-label font-14-400">開催場所</div> -->
-                                    <p class="row-value font-13-500">長野県木曽郡木曽町日義4800番1</p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </li>
-            </div>
-            <a class="btn-more" href="<?php bloginfo('url'); ?>/event/">
-                <span class="btn-text font-16-600">もっと見る</span>
-                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-            </a>
-        </div>
-    </section>
-
-    <section class="style-section">
-        <div class="container">
-            <h2 class="main-title main-color font-en">
-                MURAKMI STYLE
-            </h2>
-            <div class="left-right">
-                <div class="left-part thumb-wrapper">
-                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/styleimg001.png"
-                        alt="土地探しから関わる家づくり">
-                </div>
-                <div class="right-part">
-                    <h3 class="part-title font-20-600">
-                        自然の声を聴き、土地の個性を読む。<br>
-                        それが私たちの家づくり。
-                    </h3>
-                    <p class="desc font-14-500">
-                        私たちの家づくりの原点は、太陽の熱や光、風といった自然の力を巧みに利用する思想にあります。<br>
-                        家は、ただ雨風をしのぐ箱であってはならない。木曽の厳しい自然の中で育まれた知恵と、建築家としての設計力を掛け合わせ、私たちはまず、お客様が選んだ「土地の声」に耳を澄ませます。<br>
-                        光はどちらから差し込み、風はどこへ抜けていくのか。窓から見える景色は、暮らしにどんな彩りを与えてくれるのか。お客様の理想の暮らしをヒアリングすることはもちろん、その土地が持つ本来の価値を最大限に引き出すプロとしての答えを導き出すこと。<br>
-                        それが、住むほどに愛着が深まる、世界にひとつの心地よい暮らしを創造する私たちのスタイルです。
-                    </p>
-                </div>
             </div>
         </div>
     </section>
 
     <section class="concept-section">
-        <div class="container-wrapper">
-            <div class="container">
-                <div class="section-title">
-                    <h2 class="jp-title font-30-500">MURAKAMI STYLEとは</h2>
-                    <p class="en-title font-12-500 main-color">ABOUT MURAKAMI STYLE</p>
-                </div>
-                <ul class="items-list">
-                    <li class="list-item">
-                        <a class="btn-item" href="">
-                            <h2 class="item-title font-20-500">土地探しから関わる家づくり</h2>
-                            <div class="thumb-wrapper">
-                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/aboutimg001.jpg"
-                                    alt="土地探しから関わる家づくり">
-                            </div>
-                            <p class="desc font-14-500">
-                                村上工務店では、家を建てる前の「土地探し」段階からお客様と一緒に関わることを特徴としています。<br>
-                                土地を購入する前に、その土地でどのような暮らしが可能かを「ラフ図」で提案するスタイルです。<br>
-                                これにより、「土地を買ってから理想の暮らしが実現できない」といったギャップをなくすことを目指しています。
-                            </p>
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a class="btn-item" href="">
-                            <h2 class="item-title font-20-500">暮らしと設計を一致させる</h2>
-                            <div class="thumb-wrapper">
-                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/aboutimg002.jpg"
-                                    alt="暮らしと設計を一致させる">
-                            </div>
-                            <p class="desc font-14-500">
-                                ラフ図を通じて、お客様の暮らしのイメージと設計上の制約を事前にすり合わせることで、暮らしのイメージと実現可能性を一致させることができます。<br>
-                                一般的な「土地を先に買って、その条件に合わせて家を設計する」という流れとは逆で、暮らしの設計を起点に土地選びを行うという発想です。
-                            </p>
-                        </a>
-                    </li>
-                    <li class="list-item">
-                        <a class="btn-item" href="">
-                            <h2 class="item-title font-20-500">高性能な住宅性能を前提に組み込む</h2>
-                            <div class="thumb-wrapper">
-                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/aboutimg003.jpg"
-                                    alt="高性能な住宅性能を前提に組み込む">
-                            </div>
-                            <p class="desc font-14-500">
-                                性能（冬の仕組みや夏の仕組みなど）は、後付けではなく設計段階から組み込むシステムとして考えられています。<br>
-                                単なる設備の導入ではなく、設計思想として性能を確保するため、「高性能住宅」としての水準も満たします。
-                            </p>
-                        </a>
-                    </li>
-                </ul>
-                <p class="bottom-desc">
-                    Murakami Styleでは、<br class="sp">土地探しから関わり、<br class="sp">土地を探している時にその土地を見てみて<br>
-                    村上社長がお客様に<br class="sp">ラフ図でこの土地であれば<br class="sp">どのような暮らしができるかを具体化し、<br>
-                    それをもとにお客様は<br class="sp">土地を購入し家づくりを進めます。
-                </p>
-                <a class="btn-more" href="<?php bloginfo('url'); ?>/concept/">
-                    <span class="btn-text font-16-600">詳しくはこちら</span>
-                    <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-                </a>
-            </div>
-        </div>
-        <img class="bottom-img pc" src="<?php bloginfo('template_url'); ?>/img/aboutsectionbg.jpg"
-            alt="MURAKAMI STYLEとは">
-        <img class="bottom-img sp" src="<?php bloginfo('template_url'); ?>/img/aboutsectionbgsp.jpg"
-            alt="MURAKAMI STYLEとは">
-    </section>
-
-    <section class="commitment-section">
+        <img class="section-img section-img1" src="<?php bloginfo('template_url'); ?>/img/conceptimg001.jpg"
+            alt="工場の設備に関するこんなお悩みありませんか？">
+        <img class="section-img section-img2" src="<?php bloginfo('template_url'); ?>/img/conceptimg002.jpg"
+            alt="生産ラインの効率化のため、機械のレイアウトを変更したい。">
+        <img class="section-img section-img3 pc" src="<?php bloginfo('template_url'); ?>/img/conceptimg003.jpg"
+            alt="新しい大型機械の導入で、搬入から据付まで一括で任せたい。">
         <div class="container">
-            <div class="section-title">
-                <h2 class="jp-title font-30-500">家づくりのこだわり</h2>
-                <p class="en-title font-12-500 main-color">COMMITMENT</p>
-            </div>
+            <h2 class="top-title">
+                <span class="font-28-900 main-color">工場の設備に関する</span><br>
+                <span class="font-32-900 main-color">こんなお悩みありませんか？</span>
+            </h2>
             <ul class="items-list">
                 <li class="list-item">
-                    <div class="left-right">
-                        <div class="left-part">
-                            <div class="title-wrapper">
-                                <span class="number">1</span>
-                                <h3 class="part-title font-20-600">
-                                    深呼吸したくなる、<br>
-                                    健やかな木の家。
-                                </h3>
-                            </div>
-                            <p class="desc font-14-500">
-                                私たちは、地元の木曽檜をはじめ、住む人の心と身体に優しい自然素材をふんだんに使用します。無垢材の床は素足に心地よく、壁に用いる漆喰や珪藻土は室内の空気を清らかに保ちます。まるで森の中にいるような木の香りに包まれ、家族が永く健やかに暮らせる家をお届けします。
-                            </p>
-                            <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/commitmentimg001.jpg"
-                                alt="健やかな木の家">
-                            <a class="btn-more" href="<?php bloginfo('url'); ?>/material/">
-                                <span class="btn-text font-16-600">人と自然に優しい素材</span>
-                                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg"
-                                    alt="右矢印">
-                            </a>
-                        </div>
-                        <div class="right-part thumb-wrapper pc">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/commitmentimg001.jpg"
-                                alt="健やかな木の家">
-                        </div>
+                    <div class="item-wrapper">
+                        <img class="item-icon" src="<?php bloginfo('template_url'); ?>/img/checkicon.svg"
+                            alt="チェックアイコン">
+                        <span class="item-text font-18-700">生産ラインの効率化のため、機械のレイアウトを変更したい。</span>
                     </div>
                 </li>
                 <li class="list-item">
-                    <div class="left-right reverse">
-                        <div class="left-part">
-                            <div class="title-wrapper">
-                                <span class="number">2</span>
-                                <h3 class="part-title font-20-600">
-                                    描くのは間取りではなく<br>
-                                    「暮らしの風景」。
-                                </h3>
-                            </div>
-                            <p class="desc font-14-500">
-                                私たちは、地元の木曽檜をはじめ、住む人の心と身体に優しい自然素材をふんだんに使用します。無垢材の床は素足に心地よく、壁に用いる漆喰や珪藻土は室内の空気を清らかに保ちます。まるで森の中にいるような木の香りに包まれ、家族が永く健やかに暮らせる家をお届けします。
-                            </p>
-                            <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/commitmentimg002.jpg"
-                                alt="暮らしの風景">
-                            <a class="btn-more" href="<?php bloginfo('url'); ?>/design/">
-                                <span class="btn-text font-16-600">暮らしから考える設計</span>
-                                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg"
-                                    alt="右矢印">
-                            </a>
-                        </div>
-                        <div class="right-part thumb-wrapper pc">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/commitmentimg002.jpg"
-                                alt="暮らしの風景">
-                        </div>
+                    <div class="item-wrapper">
+                        <img class="item-icon" src="<?php bloginfo('template_url'); ?>/img/checkicon.svg"
+                            alt="チェックアイコン">
+                        <span class="item-text font-18-700">新しい大型機械の導入で、搬入から据付まで一括で任せたい。</span>
                     </div>
                 </li>
                 <li class="list-item">
-                    <div class="left-right">
-                        <div class="left-part">
-                            <div class="title-wrapper">
-                                <span class="number">3</span>
-                                <h3 class="part-title font-20-600">
-                                    夏の涼、冬の暖。<br>
-                                    自然の力を借りる賢い仕組み。
-                                </h3>
-                            </div>
-                            <p class="desc font-14-500">
-                                デザインの美しさだけでなく、一年を通して快適に過ごせる性能も私たちのこだわりです。高い断熱性・気密性を備えた「長期優良住宅」を標準とし、機械だけに頼らず、太陽の光や熱、風の流れといった自然のエネルギーを最大限に活用するパッシブデザインを徹底。最小限のエネルギーで、夏は涼しく冬は暖かい、人にも環境にも優しい住まいを実現します。
-                            </p>
-                            <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/commitmentimg003.jpg"
-                                alt="年中快適に過ごす仕組み">
-                            <a class="btn-more" href="<?php bloginfo('url'); ?>/structure/">
-                                <span class="btn-text font-16-600">年中快適に過ごす仕組み</span>
-                                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg"
-                                    alt="右矢印">
-                            </a>
-                        </div>
-                        <div class="right-part thumb-wrapper pc">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/commitmentimg003.jpg"
-                                alt="年中快適に過ごす仕組み">
-                        </div>
+                    <div class="item-wrapper">
+                        <img class="item-icon" src="<?php bloginfo('template_url'); ?>/img/checkicon.svg"
+                            alt="チェックアイコン">
+                        <span class="item-text font-18-700">老朽化した変圧器（キュービクル）を安全・確実に入れ替えたい。</span>
+                    </div>
+                </li>
+                <li class="list-item">
+                    <div class="item-wrapper">
+                        <img class="item-icon" src="<?php bloginfo('template_url'); ?>/img/checkicon.svg"
+                            alt="チェックアイコン">
+                        <span class="item-text font-18-700">10tを超える重量物の扱いは、信頼できる専門業者を探している。</span>
                     </div>
                 </li>
             </ul>
+            <h3 class="bottom-title font-36-900">
+                ひとつでも当てはまれば、<br>
+                ぜひ私たちにご相談ください！
+            </h3>
         </div>
+        <img class="section-img section-img4 pc" src="<?php bloginfo('template_url'); ?>/img/conceptimg004.jpg"
+            alt="老朽化した変圧器（キュービクル）を安全・確実に入れ替えたい。">
+        <img class="section-img section-img5" src="<?php bloginfo('template_url'); ?>/img/conceptimg005.jpg"
+            alt="10tを超える重量物の扱いは、信頼できる専門業者を探している。">
+        <img class="section-img section-img6" src="<?php bloginfo('template_url'); ?>/img/conceptimg006.jpg"
+            alt="ひとつでも当てはまれば、ぜひ私たちにご相談ください！">
     </section>
 
-    <section class="works-section">
+    <section class="reasons-section">
         <div class="container">
             <div class="section-title">
-                <h2 class="jp-title font-30-500">施工事例</h2>
-                <p class="en-title font-12-500 main-color">CASE STUDY</p>
+                <p class="en-title font-60-700 font-en main-color">REASONS</p>
+                <h2 class="jp-title font-16-700">KEnKIが選ばれる理由</h2>
             </div>
-            <ul class="items-list case-list">
-                <li class="list-item" data-id="注文住宅">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/worksimg001.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <div class="cats-address">
-                            <ul class="cats">
-                                <li class="cat-item">
-                                    <p class="cat font-12-700">リフォーム</p>
-                                </li>
-                            </ul>
-                            <p class="address-text font-14-400">木曽郡A様</p>
-                        </div>
-                        <h3 class="item-title font-18-700">家族の時間とアトリエの時間。</h3>
-                        <p class="item-desc font-13-500">
-                            風の通り道　自然に溶け込む家（長期優良住宅・地域型住宅グリーン化事業）
-                        </p>
-                    </a>
-                </li>
-                <li class="list-item" data-id="注文住宅">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/worksimg002.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <div class="cats-address">
-                            <ul class="cats">
-                                <li class="cat-item">
-                                    <p class="cat font-12-700">リフォーム</p>
-                                </li>
-                            </ul>
-                            <p class="address-text font-14-400">木曽郡A様</p>
-                        </div>
-                        <h3 class="item-title font-18-700">家族の時間とアトリエの時間。</h3>
-                        <p class="item-desc font-13-500">
-                            風の通り道　自然に溶け込む家（長期優良住宅・地域型住宅グリーン化事業）
-                        </p>
-                    </a>
-                </li>
-                <li class="list-item" data-id="注文住宅">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/worksimg003.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <div class="cats-address">
-                            <ul class="cats">
-                                <li class="cat-item">
-                                    <p class="cat font-12-700">リフォーム</p>
-                                </li>
-                            </ul>
-                            <p class="address-text font-14-400">木曽郡A様</p>
-                        </div>
-                        <h3 class="item-title font-18-700">家族の時間とアトリエの時間。</h3>
-                        <p class="item-desc font-13-500">
-                            風の通り道　自然に溶け込む家（長期優良住宅・地域型住宅グリーン化事業）
-                        </p>
-                    </a>
-                </li>
-            </ul>
-            <a class="btn-more" href="<?php bloginfo(show: 'url'); ?>/works/">
-                <span class="btn-text font-16-600">もっと見る</span>
-                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-            </a>
         </div>
-    </section>
-    <section class="voice-section">
+        <ul class="reasons-list items-list">
+            <li class="reason-item list-item">
+                <div class="left-right">
+                    <div class="left-part">
+                        <div class="part-container">
+                            <p class="number-label">
+                                <span class="label font-60-500 font-roboto">POINT.</span><span
+                                    class="number font-100-500 font-roboto">1</span>
+                            </p>
+                            <h3 class="main-title font-30-900">圧倒的な技術力と実績</h3>
+                            <p class="desc font-20-500">
+                                NXホールディングス様のパートナーとして40年弱。発電所や大規模工場など、極めて高い技術力が求められる現場で培ったノウハウは、一朝一夕では真似のできない私たちの財産です。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-part thumb-wrapper">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/reasonsimg001.jpg"
+                            alt="圧倒的な技術力と実績">
+                    </div>
+                </div>
+            </li>
+            <li class="reason-item list-item">
+                <div class="left-right reverse">
+                    <div class="left-part">
+                        <div class="part-container">
+                            <p class="number-label">
+                                <span class="label font-60-500 font-roboto">POINT.</span><span
+                                    class="number font-100-500 font-roboto">2</span>
+                            </p>
+                            <h3 class="main-title font-30-900">譲れない「安全」へのこだわり</h3>
+                            <p class="desc font-20-500">
+                                一瞬のミスが人命に関わる仕事だからこそ、私たちは「安全なくして品質は守れない」と考えます。安全基準をご理解いただけない場合は仕事を断るほどの強い信念で、すべての現場に臨みます。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-part thumb-wrapper">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/reasonsimg002.jpg"
+                            alt="譲れない「安全」へのこだわり">
+                    </div>
+                </div>
+            </li>
+            <li class="reason-item list-item">
+                <div class="left-right">
+                    <div class="left-part">
+                        <div class="part-container">
+                            <p class="number-label">
+                                <span class="label font-60-500 font-roboto">POINT.</span><span
+                                    class="number font-100-500 font-roboto">3</span>
+                            </p>
+                            <h3 class="main-title font-30-900">「手が抜けない」実直な社風</h3>
+                            <p class="desc font-20-500">
+                                私たちは、妥協した仕事ができません。打ち合わせから施工まで、お客様の課題に真摯に向き合い、当事者意識を持って現場を改善します。その実直さが、お客様からの信頼に繋がっています。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-part thumb-wrapper">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/reasonsimg003.jpg"
+                            alt="「手が抜けない」実直な社風">
+                    </div>
+                </div>
+            </li>
+        </ul>
         <div class="container">
-            <div class="section-title">
-                <h2 class="jp-title font-30-500">お客様の声</h2>
-                <p class="en-title font-12-500 main-color">USER’S VOICE</p>
-            </div>
-            <ul class="items-list case-list">
-                <li class="list-item" data-id="注文住宅">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/voiceimg001.jpg"
-                                alt="みんなの笑顔が集う家">
-                        </div>
-                        <div class="cats-address">
-                            <ul class="cats">
-                                <li class="cat-item">
-                                    <p class="cat font-12-700">リフォーム</p>
-                                </li>
-                            </ul>
-                            <p class="address-text font-14-400">木曽郡A様</p>
-                        </div>
-                        <h3 class="item-title font-18-700">家族の時間とアトリエの時間。</h3>
-                        <p class="item-desc font-13-500">
-                            風の通り道　自然に溶け込む家（長期優良住宅・地域型住宅グリーン化事業）
-                        </p>
-                    </a>
-                </li>
-                <li class="list-item" data-id="注文住宅">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/voiceimg002.jpg"
-                                alt="みんなの笑顔が集う家">
-                        </div>
-                        <div class="cats-address">
-                            <ul class="cats">
-                                <li class="cat-item">
-                                    <p class="cat font-12-700">リフォーム</p>
-                                </li>
-                            </ul>
-                            <p class="address-text font-14-400">木曽郡A様</p>
-                        </div>
-                        <h3 class="item-title font-18-700">家族の時間とアトリエの時間。</h3>
-                        <p class="item-desc font-13-500">
-                            風の通り道　自然に溶け込む家（長期優良住宅・地域型住宅グリーン化事業）
-                        </p>
-                    </a>
-                </li>
-                <li class="list-item" data-id="注文住宅">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/voiceimg003.jpg"
-                                alt="みんなの笑顔が集う家">
-                        </div>
-                        <div class="cats-address">
-                            <ul class="cats">
-                                <li class="cat-item">
-                                    <p class="cat font-12-700">リフォーム</p>
-                                </li>
-                            </ul>
-                            <p class="address-text font-14-400">木曽郡A様</p>
-                        </div>
-                        <h3 class="item-title font-18-700">家族の時間とアトリエの時間。</h3>
-                        <p class="item-desc font-13-500">
-                            風の通り道　自然に溶け込む家（長期優良住宅・地域型住宅グリーン化事業）
-                        </p>
-                    </a>
-                </li>
-                <li class="list-item" data-id="注文住宅">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/voiceimg004.jpg"
-                                alt="みんなの笑顔が集う家">
-                        </div>
-                        <div class="cats-address">
-                            <ul class="cats">
-                                <li class="cat-item">
-                                    <p class="cat font-12-700">リフォーム</p>
-                                </li>
-                            </ul>
-                            <p class="address-text font-14-400">木曽郡A様</p>
-                        </div>
-                        <h3 class="item-title font-18-700">家族の時間とアトリエの時間。</h3>
-                        <p class="item-desc font-13-500">
-                            風の通り道　自然に溶け込む家（長期優良住宅・地域型住宅グリーン化事業）
-                        </p>
-                    </a>
-                </li>
-            </ul>
-            <a class="btn-more" href="<?php bloginfo(show: 'url'); ?>/voice/">
-                <span class="btn-text font-16-600">もっと見る</span>
-                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
+            <a class="btn-more" href="<?php bloginfo('url'); ?>/reason/">
+                <span class="btn-text font-16-700">選ばれる理由を詳しく見る</span>
             </a>
         </div>
     </section>
 
-    <div class="gallery-part">
-        <img class="gallery-img pc" src="<?php bloginfo('template_url'); ?>/img/galleryimg.png" alt="村上工務店">
-        <img class="gallery-img sp" src="<?php bloginfo('template_url'); ?>/img/galleryimgsp.png" alt="村上工務店">
-    </div>
-
-    <section class="modelhouse-section">
+    <section class="business-section">
         <div class="container">
-            <div class="part1 left-right">
-                <div class="left-part">
-                    <p class="big-text pc">
-                        MODELHOUSE
-                    </p>
-                    <h3 class="part-title font-20-600">
-                        木曽の自然と響きあう、<br>
-                        心地よさを体感しに来てください。
-                    </h3>
-                    <p class="desc font-15-500">
-                        私たちが考える「本当に心地よい家」を、実際に体感いただけるモデルハウスをご用意しています。<br>
-                        写真だけでは伝わらない光の入り方、風の通り道、木の香り、そして空間の広がり。ぜひご家族で訪れ、未来の暮らしをイメージしてみてください。
-                    </p>
-                    <a class="btn-more" href="<?php bloginfo('url'); ?>/modelhouse/">
-                        <span class="btn-text font-16-600">モデルハウスを見る</span>
-                        <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-                    </a>
-                </div>
-                <div class="right-part thumb-wrapper">
-                    <p class="big-text sp">
-                        MODELHOUSE
-                    </p>
-                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/modelhouseimg001.jpg"
-                        alt="村上工務店">
-                </div>
+            <div class="section-title">
+                <p class="en-title font-60-700 font-en main-color">OUR BUSINESS</p>
+                <h2 class="jp-title font-16-700">事業内容</h2>
             </div>
-
-            <ul class="items-list">
-                <li class="list-item">
-                    <div class="left-right">
-                        <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/modelhouseimg011.jpg"
-                                alt="今の暮らしに、未来の心地よさを">
+            <ul class="business-list">
+                <li class="business-item">
+                    <a class="item-href with-circle-arrow" href="<?php bloginfo('url'); ?>//">
+                        <div class="thumb-wrapper">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg001.jpg"
+                                alt="重機事業">
+                            <div class="title-wrapper">
+                                <h3 class="item-title font-24-700">重機事業</h3>
+                                <p class="item-jp-title font-14-700">
+                                    HEAVY MACHINERY BUSINESS
+                                </p>
+                            </div>
+                            <div class="circle-arrow">
+                                <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/rightarrowicon2.svg"
+                                    alt="矢印アイコン">
+                            </div>
                         </div>
-                        <div class="right-part">
-                            <p class="rect-cat font-18-600">リフォーム</p>
-                            <h3 class="part-title font-20-600">
-                                今の暮らしに、未来の心地よさを。
-                            </h3>
-                            <p class="desc font-15-500">
-                                リフォームは、ただ古くなったものを新しくするだけではありません。村上工務店は、注文住宅で培った設計力と提案力で、お客様のライフスタイルの変化に合わせた最適な暮らしを再設計します。<br>
-                                愛着のある住まいを、もっと心地よく、もっと永く。
-                            </p>
-                            <a class="btn-more" href="<?php bloginfo('url'); ?>/reform/">
-                                <span class="btn-text font-16-600">詳しく見る</span>
-                                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg"
-                                    alt="右矢印">
-                            </a>
-                        </div>
-                    </div>
+                        <p class="item-desc font-15-500">
+                            10t、20tを超える大型機械から精密機械まで、豊富な経験と技術で安全かつスムーズな作業を実現します。工場の生産ライン変更やレイアウト変更、キュービクルの入れ替えなど、専門的な作業はお任せください。
+                        </p>
+                    </a>
                 </li>
-                <li class="list-item">
-                    <div class="left-right">
-                        <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/modelhouseimg012.jpg"
-                                alt="私たちが提案する「暮らし」をもっと気軽に体験できる場所">
+                <li class="business-item">
+                    <a class="item-href with-circle-arrow" href="<?php bloginfo('url'); ?>//">
+                        <div class="thumb-wrapper">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg002.jpg"
+                                alt="建築事業">
+                            <div class="title-wrapper">
+                                <h3 class="item-title font-24-700">建築事業</h3>
+                                <p class="item-jp-title font-14-700">
+                                    CONSTRUCTION BUSINESS
+                                </p>
+                            </div>
+                            <div class="circle-arrow">
+                                <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/rightarrowicon2.svg"
+                                    alt="矢印アイコン">
+                            </div>
                         </div>
-                        <div class="right-part">
-                            <p class="rect-cat font-18-600">レストラン・Airbnb</p>
-                            <h3 class="part-title font-20-600">
-                                私たちが提案する「暮らし」を、<br>
-                                もっと気軽に体験できる場所。
-                            </h3>
-                            <p class="desc font-15-500">
-                                私たちの家づくりは、心地よい「暮らし」そのものをご提案すること。その世界観をより多くの方に体験していただくため、レストランと宿泊施設（Airbnb）を運営しています。<br>
-                                木曽の豊かな食と、自然に包まれる空間を、ぜひ味わいに来てください。
-                            </p>
-                            <a class="btn-more" href="<?php bloginfo('url'); ?>/restaurant/">
-                                <span class="btn-text font-16-600">詳しく見る</span>
-                                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg"
-                                    alt="右矢印">
-                            </a>
-                        </div>
-                    </div>
+                        <p class="item-desc font-15-500">
+                            重機事業で培った高い技術力と施工管理能力を、皆様の住まいづくりにも。一般住宅のリフォーム・リノベーションを通して、デザイン性と機能性を両立した快適な住空間をご提案します。
+                        </p>
+                    </a>
                 </li>
             </ul>
         </div>
     </section>
 
     <section class="message-section">
+        <img class="section-img pc" src="<?php bloginfo('template_url'); ?>/img/messageimg001.jpg" alt="代表あいさつ">
+        <img class="section-img sp" src="<?php bloginfo('template_url'); ?>/img/messageimg001sp.jpg" alt="代表あいさつ">
         <div class="container">
-            <p class="big-text">
-                MESSAGE
-            </p>
+            <div class="main-content">
+                <div class="section-title">
+                    <p class="en-title font-60-700 font-en main-color">MESSAGE</p>
+                    <h2 class="jp-title font-16-700">代表あいさつ</h2>
+                </div>
+                <div class="left-right">
+                    <div class="left-part">
+                        <p class="message-content font-14-400">
+                            弊社は1988年（昭和６３年）に創立し、架設や橋梁工事とクレーンなどの重機リースをメインに始まりました。<br>
+                            現在は、時代の流れやお客様のニーズに合わせ「建築事業」「重機事業」「リース事業」の三本柱でやっております。
+                            詳しくは事業内容ページをご参照下さい。
+                            <span class="sentences-paragraph"></span>
+                            弊社はおかげさまで、２０１８年（平成30年）で満３０周年を迎えることができました。<br>
+                            これもひとえに皆々様のご愛顧とご支援の賜物であると、心より感謝申し上げます。<br>
+                            ゆえに弊社は、私や弊社を育んで頂いた、お客様や地元地域への恩返しの思いで「繁栄」に貢献させていただいております。
+                            <span class="sentences-paragraph"></span>
+                            そして、この地元新潟の「街づくり」やお客様ひとりひとりの想いが詰まった「家づくり」を仕事にさせて頂いている事に大変感謝しております。
+                            <span class="sentences-paragraph"></span>
+                            弊社の理念でもあります「共有」「共存」「共栄」はまさに私の理念でもございます。<br>
+                            価値観を共有し、共に生き、共に栄える。<br>
+                            この世界不況と呼ばれる現代を乗り越え、さらなる発展を続けるために「共力」は必要不可欠。<br>
+                            資本、資源、人口が減りゆく中、争い取り合うのではなくシェアする事で全体の豊かさが生まれる。私はそう感じております。
+                            <span class="sentences-paragraph"></span>
+                            それがゆえに、弊社では地域やお客様に大切にして頂ける「愛され企業」を目指しております。<br>
+                            まだまだ３０周年、今後も時代やニーズに合わせ、進化を続け"１００年企業"となれるよう、日々精進してまいりますので今後ともこの株式会社KEnKIを何卒宜しくお願い致します。
+                        </p>
+                    </div>
+                    <div class="right-part thumb-wrapper">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/presidentimg001.jpg"
+                            alt="鈴木 隆三">
+                        <h4 class="name font-18-700 main-color">代表取締役 鈴木 隆三</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="company-recruit">
+        <a class="part-item with-circle-arrow" href="<?php bloginfo('url'); ?>/company/">
+            <span class="btn-text font-30-700">
+                会社概要
+            </span>
+            <div class="circle-arrow">
+                <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/rightarrowicon2.svg" alt="矢印アイコン">
+            </div>
+        </a>
+        <a class="part-item with-circle-arrow" href="<?php bloginfo('url'); ?>/recruit/">
+            <span class="btn-text font-30-700">
+                採用情報
+            </span>
+            <div class="circle-arrow">
+                <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/rightarrowicon2.svg" alt="矢印アイコン">
+            </div>
+        </a>
+    </div>
+
+    <section class="blog-section">
+        <div class="container">
+            <div class="section-title">
+                <p class="en-title font-60-700 font-en main-color">BLOG</p>
+                <h2 class="jp-title font-16-700">ブログ</h2>
+            </div>
             <div class="left-right">
                 <div class="left-part">
-                    <h3 class="part-title font-20-600">最高の家づくりは、土地探しから始まっています。</h3>
-                    <p class="message-content font-14-500">
-                        私たちは、家づくりの本当の始まりは、土地を買うその前にあると考えています。<br>
-                        気になる土地が見つかったら、まずご相談ください。お客様が購入を検討している土地へ赴き、光や風、周辺環境を読み解き、その土地の可能性を最大限に引き出す家のプランを無料でご提案する。それが私たちの信念です。<br>
-                        敬遠されがちな傾斜地や変形地も、私たちにとっては最高の個性を秘めた宝物。その土地ならではの価値を最大限に引き出し、世界にひとつの住まいをデザインします。<br>
-                        土地探しから、私たちと一緒に最高の未来を描き始めませんか。
-                    </p>
-                    <h4 class="name font-18-600">代表取締役 村上 友紀</h4>
-                    <a class="btn-more" href="<?php bloginfo(show: 'url'); ?>/company/">
-                        <span class="btn-text font-16-600">会社概要を見る</span>
-                        <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-                    </a>
-                </div>
-                <div class="right-part thumb-wrapper">
-                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/presidentimg001.jpg" alt="村上 友紀">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="faq-section page-faq">
-        <div class="container">
-            <div class="left-right">
-                <div class="left-part section-title">
-                    <h2 class="jp-title font-30-500">よくある質問</h2>
-                    <p class="en-title font-12-500 main-color">FAQ</p>
-                </div>
-                <div id="faq01" class="right-part faqBox">
-                    <div class="item">
-                        <dl class="click-title">
-                            <dt>Q</dt>
-                            <dd> 施工エリアはどこまで対応していますか？</dd>
-                        </dl>
-                        <div class="click-content">
-                            <p>
-                                <span class="a-content">
-                                    はい、土地探しから喜んでサポートします。購入前の土地に無料でラフ図を提案する、弊社独自のサービスもぜひご活用ください。
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <dl class="click-title">
-                            <dt>Q</dt>
-                            <dd> まだ土地が決まっていなくても、相談できますか？</dd>
-                        </dl>
-                        <div class="click-content">
-                            <p>
-                                <span class="a-content">
-                                    はい、土地探しから喜んでサポートします。購入前の土地に無料でラフ図を提案する、弊社独自のサービスもぜひご活用ください。
-                                </span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <dl class="click-title">
-                            <dt>Q</dt>
-                            <dd> 傾斜地や変形地など、条件の悪い土地でも大丈夫ですか？</dd>
-                        </dl>
-                        <div class="click-content">
-                            <p>
-                                <span class="a-content">
-                                    はい、土地探しから喜んでサポートします。購入前の土地に無料でラフ図を提案する、弊社独自のサービスもぜひご活用ください。
-                                </span>
-                            </p>
-                        </div>
+                    <div class="tabs">
+                        <button class="tab-item blog-tab tab-news active">
+                            <span class="btn-text font-16-700">お知らせ</span>
+                        </button>
+                        <button class="tab-item blog-tab tab-column">
+                            <span class="btn-text font-16-700">コラム</span>
+                        </button>
+                        <button class="tab-item blog-tab tab-staff">
+                            <span class="btn-text font-16-700">スタッフブログ</span>
+                        </button>
                     </div>
                 </div>
-            </div>
-            <a class="btn-more" href="<?php bloginfo(show: 'url'); ?>/faq/">
-                <span class="btn-text font-16-600">もっと見る</span>
-                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-            </a>
-        </div>
-    </section>
-
-    <section class="subsidy-info">
-        <div class="container">
-            <h2 class="main-title font-20-500">補助金情報</h2>
-            <ul class="items-list">
-                <li class="list-item">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/subsidyinfoimg001.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <p class="date font-13-600">2025.10.20</p>
-                        <h3 class="item-title font-13-600">家族の時間とアトリエの時間。</h3>
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/subsidyinfoimg002.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <p class="date font-13-600">2025.10.20</p>
-                        <h3 class="item-title font-13-600">家族の時間とアトリエの時間。</h3>
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/subsidyinfoimg003.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <p class="date font-13-600">2025.10.20</p>
-                        <h3 class="item-title font-13-600">家族の時間とアトリエの時間。</h3>
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/subsidyinfoimg004.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <p class="date font-13-600">2025.10.20</p>
-                        <h3 class="item-title font-13-600">家族の時間とアトリエの時間。</h3>
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/subsidyinfoimg005.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <p class="date font-13-600">2025.10.20</p>
-                        <h3 class="item-title font-13-600">家族の時間とアトリエの時間。</h3>
-                    </a>
-                </li>
-                <li class="list-item">
-                    <a class="btn-item" href="">
-                        <div class="thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/subsidyinfoimg006.jpg"
-                                alt="家族の時間とアトリエの時間">
-                        </div>
-                        <p class="date font-13-600">2025.10.20</p>
-                        <h3 class="item-title font-13-600">家族の時間とアトリエの時間。</h3>
-                    </a>
-                </li>
-            </ul>
-            <a class="btn-more" href="<?php bloginfo(show: 'url'); ?>/subsidy/">
-                <span class="btn-text font-16-600">もっと見る</span>
-                <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-            </a>
-        </div>
-    </section>
-
-    <section class="news-column">
-        <div class="container">
-            <div class="column-2">
-                <div class="column-item column-l">
-                    <h2 class="main-title font-20-500">お知らせ</h2>
-                    <ul class="items-list news-list">
+                <div class="right-part blog-panel">
+                    <ul class="items-list news-panel">
                         <li class="list-item">
-                            <a class="btn-item" href="">
-                                <div class="left-right">
-                                    <div class="left-part thumb-wrapper">
-                                        <img class="thumb-img"
-                                            src="<?php bloginfo('template_url'); ?>/img/newsimg001.jpg"
-                                            alt="家族の時間とアトリエの時間。家族の時間とアトリエの時間">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg001.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">お知らせ</p>
+                                            <p class="cat font-12-500">コラム</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
                                     </div>
-                                    <div class="right-part">
-                                        <p class="date font-12-600">2025.10.20</p>
-                                        <h3 class="item-title font-13-600">
-                                            家族の時間とアトリエの時間。家族の時間とアトリエの時間。
-                                        </h3>
-                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
                                 </div>
                             </a>
                         </li>
                         <li class="list-item">
-                            <a class="btn-item" href="">
-                                <div class="left-right">
-                                    <div class="left-part thumb-wrapper">
-                                        <img class="thumb-img"
-                                            src="<?php bloginfo('template_url'); ?>/img/newsimg002.jpg"
-                                            alt="家族の時間とアトリエの時間。家族の時間とアトリエの時間">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg002.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">お知らせ</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
                                     </div>
-                                    <div class="right-part">
-                                        <p class="date font-12-600">2025.10.20</p>
-                                        <h3 class="item-title font-13-600">
-                                            家族の時間とアトリエの時間。家族の時間とアトリエの時間。
-                                        </h3>
-                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
                                 </div>
                             </a>
                         </li>
                         <li class="list-item">
-                            <a class="btn-item" href="">
-                                <div class="left-right">
-                                    <div class="left-part thumb-wrapper">
-                                        <img class="thumb-img"
-                                            src="<?php bloginfo('template_url'); ?>/img/newsimg003.jpg"
-                                            alt="家族の時間とアトリエの時間。家族の時間とアトリエの時間">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg003.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">お知らせ</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
                                     </div>
-                                    <div class="right-part">
-                                        <p class="date font-12-600">2025.10.20</p>
-                                        <h3 class="item-title font-13-600">
-                                            家族の時間とアトリエの時間。家族の時間とアトリエの時間。
-                                        </h3>
-                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
                                 </div>
                             </a>
                         </li>
                     </ul>
-                    <a class="btn-more" href="<?php bloginfo('url'); ?>/news/">
-                        <span class="btn-text font-16-600">もっと見る</span>
-                        <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-                    </a>
-                </div>
-                <div class="column-item column-r">
-                    <h2 class="main-title font-20-500">コラム</h2>
-                    <ul class="items-list news-list">
+                    <ul class="items-list column-panel">
                         <li class="list-item">
-                            <a class="btn-item" href="">
-                                <div class="left-right">
-                                    <div class="left-part thumb-wrapper">
-                                        <img class="thumb-img"
-                                            src="<?php bloginfo('template_url'); ?>/img/columnimg001.jpg"
-                                            alt="家族の時間とアトリエの時間。家族の時間とアトリエの時間">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg002.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">コラム</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
                                     </div>
-                                    <div class="right-part">
-                                        <p class="date font-12-600">2025.10.20</p>
-                                        <h3 class="item-title font-13-600">
-                                            家族の時間とアトリエの時間。家族の時間とアトリエの時間。
-                                        </h3>
-                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
                                 </div>
                             </a>
                         </li>
                         <li class="list-item">
-                            <a class="btn-item" href="">
-                                <div class="left-right">
-                                    <div class="left-part thumb-wrapper">
-                                        <img class="thumb-img"
-                                            src="<?php bloginfo('template_url'); ?>/img/columnimg002.jpg"
-                                            alt="家族の時間とアトリエの時間。家族の時間とアトリエの時間">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg001.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">コラム</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
                                     </div>
-                                    <div class="right-part">
-                                        <p class="date font-12-600">2025.10.20</p>
-                                        <h3 class="item-title font-13-600">
-                                            家族の時間とアトリエの時間。家族の時間とアトリエの時間。
-                                        </h3>
-                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
                                 </div>
                             </a>
                         </li>
                         <li class="list-item">
-                            <a class="btn-item" href="">
-                                <div class="left-right">
-                                    <div class="left-part thumb-wrapper">
-                                        <img class="thumb-img"
-                                            src="<?php bloginfo('template_url'); ?>/img/columnimg003.jpg"
-                                            alt="家族の時間とアトリエの時間。家族の時間とアトリエの時間">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg003.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">コラム</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
                                     </div>
-                                    <div class="right-part">
-                                        <p class="date font-12-600">2025.10.20</p>
-                                        <h3 class="item-title font-13-600">
-                                            家族の時間とアトリエの時間。家族の時間とアトリエの時間。
-                                        </h3>
-                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
                                 </div>
                             </a>
                         </li>
                     </ul>
-                    <a class="btn-more" href="<?php bloginfo('url'); ?>/column/">
-                        <span class="btn-text font-16-600">もっと見る</span>
-                        <img class="arrow-img" src="<?php bloginfo('template_url'); ?>/img/iconarrow.svg" alt="右矢印">
-                    </a>
+                    <ul class="items-list staff-panel">
+                        <li class="list-item">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg003.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">スタッフブログ</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
+                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg002.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">スタッフブログ</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
+                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="list-item">
+                            <a class="item-href" href="">
+                                <div class="thumb-wrapper">
+                                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/blogimg001.jpg"
+                                        alt="共有・共存・共栄—私たちの企業哲学">
+                                </div>
+                                <div class="item-content">
+                                    <div class="cats-date">
+                                        <ul class="item-cats">
+                                            <p class="cat font-12-500">スタッフブログ</p>
+                                        </ul>
+                                        <p class="date font-14-500">2025.10.16</p>
+                                    </div>
+                                    <h3 class="item-title font-16-700">
+                                        共有・共存・共栄—私たちの企業哲学
+                                    </h3>
+                                    <p class="item-desc font-15-400">
+                                        私たちは、30年以上にわたり培ってきた技術と経験を活かし、新潟の街づくりやお客様一人ひとりの家づくりに貢献してきました。
+                                    </p>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
