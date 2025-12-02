@@ -445,7 +445,7 @@ body {
   background-color: #F5F5F5;
 }
 body * {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 1.8;
@@ -4123,7 +4123,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-main {
-  font-family: "Noto Serif JP", serif !important;
+  font-family: "Noto Sans JP", sans-serif !important;
 }
 
 .font-title {
@@ -4163,139 +4163,139 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-8-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 0.8rem;
   font-weight: 500;
 }
 
 .font-10-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1rem;
   font-weight: 400;
 }
 
 .font-10-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1rem;
   font-weight: 500;
 }
 
 .font-10-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1rem;
   font-weight: 600;
 }
 
 .font-10-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1rem;
   font-weight: 700;
 }
 
 .font-11-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
 }
 
 .font-11-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.1rem;
   font-weight: 500;
 }
 
 .font-11-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.1rem;
   font-weight: 700;
 }
 
 .font-12-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.2rem;
   font-weight: 300;
 }
 
 .font-12-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
 }
 
 .font-12-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
 }
 
 .font-12-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
 }
 
 .font-12-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
 }
 
 .font-13-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.3rem;
   font-weight: 400;
 }
 
 .font-13-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.3rem;
   font-weight: 300;
 }
 
 .font-13-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.3rem;
   font-weight: 500;
 }
 
 .font-13-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.3rem;
   font-weight: 600;
 }
 
 .font-14-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.4rem;
   font-weight: 300;
 }
 
 .font-14-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
 }
 
 .font-14-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.4rem;
   font-weight: 500;
 }
 
 .font-14-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.4rem;
   font-weight: 600;
 }
 
 .font-14-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.4rem;
   font-weight: 700;
 }
 
 .font-15-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.5rem;
   font-weight: 300;
 }
@@ -4306,7 +4306,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-15-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
 }
@@ -4317,7 +4317,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-15-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -4328,7 +4328,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-15-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.5rem;
   font-weight: 600;
 }
@@ -4339,7 +4339,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-15-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -4350,7 +4350,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-16-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.6rem;
   font-weight: 300;
 }
@@ -4361,7 +4361,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-16-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
 }
@@ -4372,7 +4372,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-16-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
 }
@@ -4383,7 +4383,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-16-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
 }
@@ -4394,7 +4394,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-16-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.6rem;
   font-weight: 700;
 }
@@ -4405,7 +4405,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-17-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.7rem;
   font-weight: 300;
 }
@@ -4416,7 +4416,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-17-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.7rem;
   font-weight: 400;
 }
@@ -4427,7 +4427,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-17-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.7rem;
   font-weight: 700;
 }
@@ -4438,7 +4438,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-18-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.8rem;
   font-weight: 300;
 }
@@ -4449,7 +4449,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-18-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.8rem;
   font-weight: 400;
 }
@@ -4460,7 +4460,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-18-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.8rem;
   font-weight: 500;
 }
@@ -4471,7 +4471,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-18-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.8rem;
   font-weight: 600;
 }
@@ -4482,7 +4482,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-18-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -4493,7 +4493,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-18-900 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.8rem;
   font-weight: 700;
 }
@@ -4504,7 +4504,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-20-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2rem;
   font-weight: 300;
 }
@@ -4515,7 +4515,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-20-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2rem;
   font-weight: 400;
 }
@@ -4526,7 +4526,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-20-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2rem;
   font-weight: 500;
 }
@@ -4537,7 +4537,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-20-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2rem;
   font-weight: 600;
 }
@@ -4548,7 +4548,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-20-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2rem;
   font-weight: 700;
 }
@@ -4559,7 +4559,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-20-900 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2rem;
   font-weight: 900;
 }
@@ -4570,7 +4570,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-22-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.2rem;
   font-weight: 400;
 }
@@ -4581,7 +4581,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-22-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.2rem;
   font-weight: 400;
 }
@@ -4592,7 +4592,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-22-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.2rem;
   font-weight: 600;
 }
@@ -4603,7 +4603,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-22-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.2rem;
   font-weight: 700;
 }
@@ -4614,7 +4614,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-23-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.3rem;
   font-weight: 300;
 }
@@ -4625,7 +4625,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-23-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.3rem;
   font-weight: 600;
 }
@@ -4636,7 +4636,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-23-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.3rem;
   font-weight: 700;
 }
@@ -4647,7 +4647,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-24-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
 }
@@ -4658,7 +4658,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-24-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
 }
@@ -4669,7 +4669,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-24-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.4rem;
   font-weight: 400;
 }
@@ -4680,7 +4680,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-24-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.4rem;
   font-weight: 700;
 }
@@ -4691,7 +4691,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-25-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
 }
@@ -4702,7 +4702,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-25-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -4713,7 +4713,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-25-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.5rem;
   font-weight: 600;
 }
@@ -4724,7 +4724,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-26-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.6rem;
   font-weight: 400;
 }
@@ -4735,7 +4735,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-26-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.6rem;
   font-weight: 500;
 }
@@ -4746,7 +4746,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-26-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.6rem;
   font-weight: 600;
 }
@@ -4757,7 +4757,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-26-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.6rem;
   font-weight: 700;
 }
@@ -4768,7 +4768,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-26-900 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.6rem;
   font-weight: 900;
 }
@@ -4779,19 +4779,19 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-27-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.7rem;
   font-weight: 600;
 }
 
 .font-27-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.7rem;
   font-weight: 700;
 }
 
 .font-28-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.8rem;
   font-weight: 400;
 }
@@ -4802,7 +4802,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-28-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.8rem;
   font-weight: 500;
 }
@@ -4813,7 +4813,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-28-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.8rem;
   font-weight: 600;
 }
@@ -4824,7 +4824,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-28-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.8rem;
   font-weight: 700;
 }
@@ -4835,7 +4835,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-28-900 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.8rem;
   font-weight: 900;
 }
@@ -4846,7 +4846,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-29-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.9rem;
   font-weight: 500;
 }
@@ -4857,7 +4857,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-29-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 2.9rem;
   font-weight: 700;
 }
@@ -4868,7 +4868,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-30-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3rem;
   font-weight: 500;
 }
@@ -4879,7 +4879,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-30-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3rem;
   font-weight: 600;
 }
@@ -4890,7 +4890,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-30-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3rem;
   font-weight: 700;
 }
@@ -4901,7 +4901,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-30-900 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3rem;
   font-weight: 900;
 }
@@ -4912,7 +4912,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-32-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.2rem;
   font-weight: 400;
 }
@@ -4923,7 +4923,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-32-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.2rem;
   font-weight: 700;
 }
@@ -4934,7 +4934,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-32-900 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.2rem;
   font-weight: 900;
 }
@@ -4945,7 +4945,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-34-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.4rem;
   font-weight: 700;
 }
@@ -4956,7 +4956,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-35-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
 }
@@ -4967,7 +4967,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-35-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.5rem;
   font-weight: 600;
 }
@@ -4978,7 +4978,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-35-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.5rem;
   font-weight: 700;
 }
@@ -4989,7 +4989,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-36-300 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.6rem;
   font-weight: 300;
 }
@@ -5000,7 +5000,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-36-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.6rem;
   font-weight: 400;
 }
@@ -5011,7 +5011,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-36-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.6rem;
   font-weight: 500;
 }
@@ -5022,7 +5022,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-36-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.6rem;
   font-weight: 700;
 }
@@ -5033,7 +5033,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-36-900 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.6rem;
   font-weight: 900;
 }
@@ -5044,7 +5044,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-38-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.8rem;
   font-weight: 400;
 }
@@ -5055,7 +5055,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-38-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.8rem;
   font-weight: 500;
 }
@@ -5066,7 +5066,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-38-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 3.8rem;
   font-weight: 700;
 }
@@ -5077,7 +5077,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-40-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4rem;
   font-weight: 400;
 }
@@ -5088,7 +5088,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-40-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4rem;
   font-weight: 600;
 }
@@ -5099,7 +5099,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-40-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4rem;
   font-weight: 700;
 }
@@ -5110,7 +5110,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-44-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.4rem;
   font-weight: 700;
 }
@@ -5121,7 +5121,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-45-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.5rem;
   font-weight: 400;
 }
@@ -5132,7 +5132,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-45-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.5rem;
   font-weight: 700;
 }
@@ -5143,7 +5143,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-47-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.7rem;
   font-weight: 700;
 }
@@ -5154,7 +5154,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-48-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.8rem;
   font-weight: 400;
 }
@@ -5165,7 +5165,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-48-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.8rem;
   font-weight: 500;
 }
@@ -5176,7 +5176,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-48-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.8rem;
   font-weight: 600;
 }
@@ -5187,7 +5187,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-48-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.8rem;
   font-weight: 700;
 }
@@ -5198,7 +5198,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-49-900 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 4.9rem;
   font-weight: 900;
 }
@@ -5209,7 +5209,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-50-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 5rem;
   font-weight: 500;
 }
@@ -5220,7 +5220,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-50-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 5rem;
   font-weight: 700;
 }
@@ -5231,7 +5231,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-53-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 5.3rem;
   font-weight: 700;
 }
@@ -5242,7 +5242,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-55-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 5.5rem;
   font-weight: 500;
 }
@@ -5253,7 +5253,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-60-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 6rem;
   font-weight: 500;
 }
@@ -5264,7 +5264,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-60-700 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 6rem;
   font-weight: 700;
 }
@@ -5275,7 +5275,7 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-64-600 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 6.4rem;
   font-weight: 600;
 }
@@ -5286,13 +5286,13 @@ body.mobile-nav-active #mobile-nav {
 }
 
 .font-70-500 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 7rem;
   font-weight: 500;
 }
 
 .font-80-400 {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 8rem;
   font-weight: 400;
 }
@@ -5662,7 +5662,7 @@ section {
 
 .mw_wp_form input,
 .mw_wp_form textarea {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.4rem;
   font-weight: 500;
   padding: 1.6rem 2.4rem;
@@ -5675,7 +5675,7 @@ section {
 }
 
 .mw_wp_form .error {
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-size: 1.2rem;
   font-weight: 500;
   color: #FF3300;
@@ -5708,7 +5708,7 @@ section {
 }
 .breadcrumb .container {
   padding: 0.8rem 0 !important;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
 }
 .breadcrumb .container * {
@@ -5749,529 +5749,117 @@ section {
   transform: rotate(18deg);
 }
 
-.section-type1 .item-list {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0px, 1fr));
-  column-gap: 8.6rem;
-  row-gap: 8.6rem;
+.section-type1 .items-list {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.section-type1 .items-list .list-item {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.section-type1 .items-list .list-item:not(:last-child) {
+  margin-bottom: 10rem;
 }
 @media only screen and (max-width: 768px) {
-  .section-type1 .item-list {
-    padding: 0 2.2rem;
-    grid-template-columns: repeat(1, minmax(0px, 1fr));
-    row-gap: 5.2rem;
+  .section-type1 .items-list .list-item:not(:last-child) {
+    margin-bottom: 4rem;
   }
 }
-.section-type1 .item-list .list-item {
-  overflow: hidden;
-}
-@media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item {
-    padding-bottom: 1.2rem;
-    border-bottom: 0.1rem solid #E8C085;
-  }
-}
-.section-type1 .item-list .list-item .thumb-wrapper {
-  margin-bottom: 1.6rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .thumb-wrapper {
-    position: relative;
-    display: flex;
-    column-gap: 1.6rem;
-    align-items: center;
-  }
-}
-.section-type1 .item-list .list-item .thumb-wrapper .thumb-status {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.section-type1 .items-list .list-item:after {
+  content: "";
+  display: block;
   position: absolute;
-  top: 0;
+  width: 100%;
+  height: 50%;
+  background-color: #003893;
   left: 0;
-  width: fit-content;
-  height: 2.9rem;
-  padding: 0.2rem 1rem;
-  color: #231815;
-  background-color: #F5F5F5;
+  bottom: -6rem;
+}
+@media only screen and (max-width: 768px) {
+  .section-type1 .items-list .list-item:after {
+    height: 100%;
+    bottom: 0;
+  }
+}
+.section-type1 .items-list .list-item .left-right {
+  column-gap: 0;
+  align-items: center;
   z-index: 1;
 }
-@media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .thumb-wrapper .thumb-status {
-    font-size: 1.2rem;
-  }
-}
-.section-type1 .item-list .list-item .thumb-wrapper .thumb-img {
-  aspect-ratio: 300/200;
-  object-fit: cover;
-}
-@media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .thumb-wrapper .thumb-img {
-    flex-shrink: 0;
-  }
-}
-.section-type1 .item-list .list-item .cats {
+.section-type1 .items-list .list-item .left-right .left-part {
   display: flex;
-  flex-wrap: wrap;
-  column-gap: 0.8rem;
-  row-gap: 0.2rem;
-  margin-bottom: 1.2rem;
+  justify-content: space-around;
+  width: 100%;
+  padding: 6.1rem 2% 6.1rem 6%;
+  background-color: #002A7A;
 }
 @media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .cats {
+  .section-type1 .items-list .list-item .left-right .left-part {
+    padding: 1.6rem;
+  }
+}
+.section-type1 .items-list .list-item .left-right .left-part .part-container {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 54rem;
+}
+.section-type1 .items-list .list-item .left-right .right-part {
+  width: 56%;
+  max-width: 82rem;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 768px) {
+  .section-type1 .items-list .list-item .left-right .right-part {
+    width: 100%;
+  }
+}
+.section-type1 .items-list .list-item .left-right.reverse .left-part {
+  padding: 6.1rem 6% 6.1rem 2%;
+}
+.section-type1 .items-list .list-item .number-label {
+  display: block;
+  position: relative;
+  margin-bottom: 3.6rem;
+}
+@media only screen and (max-width: 768px) {
+  .section-type1 .items-list .list-item .number-label {
     margin-bottom: 1.2rem;
   }
 }
-.section-type1 .item-list .list-item .cat {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: fit-content;
-  height: 3.3rem;
-  background-color: #FFF;
-  padding: 0.2rem 1.2rem;
-  border-radius: 90rem;
-  border: 0.1rem solid #CECAB5;
+@media only screen and (max-width: 768px) {
+  .section-type1 .items-list .list-item .number-label .label {
+    font-size: 3rem;
+  }
+}
+.section-type1 .items-list .list-item .number-label .number {
+  font-size: 10rem;
 }
 @media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .cat {
-    font-size: 1.2rem;
+  .section-type1 .items-list .list-item .number-label .number {
+    font-size: 4rem;
   }
 }
-.section-type1 .item-list .list-item .item-title {
-  margin-bottom: 1.5rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .item-title {
-    font-size: 1.4rem;
-    margin-bottom: 0.8rem;
-  }
-}
-.section-type1 .item-list .list-item .row-list {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-.section-type1 .item-list .list-item .row-list .row-item {
-  display: flex;
-  column-gap: 1.6rem;
-  position: relative;
-  width: 100%;
-}
-.section-type1 .item-list .list-item .row-list .row-item:not(:last-child) {
-  margin-bottom: 1rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .row-list .row-item:not(:last-child) {
-    margin-bottom: 1rem;
-  }
-}
-.section-type1 .item-list .list-item .row-list .row-item .row-label {
-  width: 6rem;
-  flex-shrink: 0;
-  line-height: 1.4;
-}
-@media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .row-list .row-item .row-label {
-    font-size: 1.3rem;
-  }
-}
-.section-type1 .item-list .list-item .row-list .row-item .row-value {
-  line-height: 1.4;
-  color: #535151;
-}
-@media only screen and (max-width: 768px) {
-  .section-type1 .item-list .list-item .row-list .row-item .row-value {
-    font-size: 1.3rem;
-  }
-}
-
-.section-type2 {
-  position: relative;
-  width: 100%;
-}
-@media only screen and (max-width: 768px) {
-  .section-type2 {
-    display: flex;
-    flex-direction: column;
-    row-gap: 4rem;
-  }
-}
-.section-type2 .section-item {
-  column-gap: 5rem;
-  align-items: center;
-}
-.section-type2 .section-item:not(:last-child) {
-  margin-bottom: 7.2rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type2 .section-item:not(:last-child) {
-    margin-bottom: 0;
-  }
-}
-.section-type2 .section-item .left-part {
-  width: 46.8%;
-  flex-shrink: 0;
-}
-.section-type2 .section-item .right-part {
-  width: 100%;
-  padding: 0 2.4rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type2 .section-item .right-part {
-    padding: 0;
-  }
-}
-.section-type2 .section-item .right-part .label {
-  display: flex;
-  align-items: flex-end;
-  column-gap: 0.4rem;
-  width: fit-content;
-  margin-left: auto;
-  margin-bottom: 2.6rem;
-  line-height: 100%;
-  z-index: 1;
-}
-@media only screen and (max-width: 768px) {
-  .section-type2 .section-item .right-part .label {
-    margin-bottom: 0.6rem;
-    margin-right: 0.6rem;
-    position: relative;
-    z-index: 1;
-  }
-}
-.section-type2 .section-item .right-part .label .point-label {
-  color: rgba(4, 81, 132, 0.2196078431);
-}
-@media only screen and (max-width: 768px) {
-  .section-type2 .section-item .right-part .label .point-label {
-    font-size: 3.2rem;
-  }
-}
-.section-type2 .section-item .right-part .label .number {
-  color: rgba(4, 81, 132, 0.2196078431);
-}
-@media only screen and (max-width: 768px) {
-  .section-type2 .section-item .right-part .label .number {
-    font-size: 4.6rem;
-  }
-}
-.section-type2 .section-item .right-part .label * {
-  display: block;
-  position: relative;
-  line-height: 100%;
-  color: #002A7A;
-}
-.section-type2 .section-item .right-part .title {
-  margin-bottom: 1.6rem;
-  padding-bottom: 1.2rem;
-  display: block;
-  width: 100%;
-  line-height: 1.6;
-  position: relative;
-}
-@media only screen and (max-width: 768px) {
-  .section-type2 .section-item .right-part .title {
-    padding-bottom: 0.8rem;
-  }
-}
-.section-type2 .section-item .item-img {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-@media only screen and (max-width: 768px) {
-  .section-type2 .section-item .item-img {
-    margin-bottom: 2.6rem;
-  }
-}
-.section-type2 .section-item .desc {
-  line-height: 1.8;
-}
-
-.section-type3 .container {
-  display: flex;
-  flex-direction: row-reverse;
-  column-gap: 9.8rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .container {
-    display: block;
-  }
-}
-.section-type3 .container:after {
-  display: none;
-}
-.section-type3 .main-title {
-  line-height: 1.4;
-  margin-bottom: 2.8rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .main-title {
-    margin-bottom: 2rem;
-  }
-}
-.section-type3 .desc {
-  line-height: 2.1;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .desc {
-    text-align: left;
-  }
-}
-.section-type3 .left-right {
-  column-gap: 2rem;
-  flex-direction: column;
-  width: 52%;
-  flex-shrink: 0;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .left-right {
-    width: 100%;
-    row-gap: 0;
-  }
-}
-.section-type3 .left-right .left-part {
-  width: 84%;
-  margin-left: auto;
-  flex-shrink: 0;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .left-right .left-part {
-    width: 100%;
-    transform: translateX(1.6rem);
-  }
-}
-.section-type3 .left-right .left-part img {
-  display: block;
-  position: relative;
-  width: 100%;
-  aspect-ratio: 300/150;
-  object-fit: cover;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .left-right .left-part img {
-    aspect-ratio: unset;
-  }
-}
-.section-type3 .left-right .right-part {
-  width: 70%;
-  margin-top: -3.6rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .left-right .right-part {
-    width: 60%;
-    margin-top: unset;
-    transform: translate(-1.6rem, -60%);
-  }
-}
-.section-type3 .left-right .right-part img {
-  display: block;
-  position: relative;
-  width: 100%;
-  aspect-ratio: 300/150;
-  object-fit: cover;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .left-right .right-part img {
-    aspect-ratio: unset;
-  }
-}
-.section-type3 .section-content {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-@media only screen and (max-width: 768px) {
-  .section-type3 .section-content {
-    width: 100%;
-    background-color: unset;
-    box-shadow: unset;
-    margin-top: -4.4rem;
-    padding: 0;
-  }
-}
-
-.section-type4 .left-right {
-  column-gap: 8.6rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .left-right .left-part .desc {
-    line-height: 1.8;
-  }
-}
-.section-type4 .left-right .right-part {
-  width: 46%;
-  flex-shrink: 0;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .left-right .right-part {
-    width: 100%;
-    margin-bottom: 1.6rem;
-  }
-}
-.section-type4 .left-right .right-part .img1 {
-  width: 90%;
-  display: block;
-  position: relative;
-  margin-left: auto;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .left-right .right-part .img1 {
-    width: 100%;
-    transform: translateX(1.6rem);
-  }
-}
-.section-type4 .left-right .right-part .img2 {
-  display: block;
-  position: relative;
-  width: 70%;
-  margin: 4rem auto 0 -3.2rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .left-right .right-part .img2 {
-    margin: -4rem auto 0 0;
-    transform: translateX(-1.6rem);
-  }
-}
-.section-type4 .items-list {
-  display: block;
-  position: relative;
-  width: 100%;
-  margin-top: 7.2rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .items-list {
-    margin-top: 5.2rem;
-  }
-}
-.section-type4 .items-list .list-item {
-  display: flex;
-  align-items: center;
-  column-gap: 3.2rem;
-  position: relative;
-  width: 100%;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .items-list .list-item {
-    flex-direction: column;
-    row-gap: 2rem;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .items-list .list-item:not(:last-child) {
-    margin-bottom: 4.8rem;
-  }
-}
-.section-type4 .items-list .list-item .item-title {
-  line-height: 1.6;
-  margin-bottom: 2.4rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .items-list .list-item .item-title {
-    margin-bottom: 1.6rem;
-  }
-}
-.section-type4 .items-list .list-item .item-left {
-  display: block;
-  position: relative;
-  width: 50%;
-  flex-shrink: 0;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .items-list .list-item .item-left {
-    width: 100%;
-  }
-}
-.section-type4 .items-list .list-item .item-right {
-  display: block;
-  position: relative;
-  width: 100%;
-  padding: 0 4.8rem;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .items-list .list-item .item-right {
-    padding: 0;
-  }
-}
-.section-type4 .items-list .list-item.reverse {
-  flex-direction: row-reverse;
-}
-@media only screen and (max-width: 768px) {
-  .section-type4 .items-list .list-item.reverse {
-    flex-direction: column;
-  }
-}
-
-.section-type5 {
-  background-color: #002A7A;
-  margin-bottom: 8.6rem;
-}
-@media only screen and (max-width: 1500px) {
-  .section-type5 {
-    margin-bottom: 0;
-  }
-}
-.section-type5 .sec-title {
+.section-type1 .items-list .list-item .number-label * {
   color: #FFF;
-  margin-bottom: 6.4rem;
+  font-style: italic;
+  line-height: 1;
 }
-@media only screen and (max-width: 768px) {
-  .section-type5 .sec-title {
-    margin-bottom: 4.8rem;
-  }
-}
-.section-type5 .items-list {
-  display: block;
-  position: relative;
-  max-width: 108rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-.section-type5 .items-list .list-item {
-  display: block;
-  position: relative;
-  width: 100%;
-  padding: 2rem 1rem;
-  border-bottom: 0.1rem solid #FFF;
-}
-@media only screen and (max-width: 768px) {
-  .section-type5 .items-list .list-item {
-    padding: 2.4rem 0;
-  }
-}
-.section-type5 .items-list .list-item:first-child {
-  border-top: 0.1rem solid #FFF;
-}
-.section-type5 .items-list .list-item .left-right {
-  column-gap: 6.4rem;
-  align-items: center;
-}
-@media only screen and (max-width: 768px) {
-  .section-type5 .items-list .list-item .left-right {
-    row-gap: 2rem;
-  }
-}
-.section-type5 .items-list .list-item .left-part {
-  width: 24rem;
-  flex-shrink: 0;
-}
-.section-type5 .items-list .list-item .left-part .thumb-img {
-  aspect-ratio: 1/1;
-  border-radius: 90rem;
-}
-.section-type5 .items-list .list-item .item-title {
-  line-height: 1.8;
-  margin-bottom: 1.6rem;
+.section-type1 .items-list .list-item .main-title {
   color: #FFF;
 }
-@media only screen and (max-width: 768px) {
-  .section-type5 .items-list .list-item .item-title {
-    margin-bottom: 1rem;
-  }
-}
-.section-type5 .items-list .list-item .desc {
+.section-type1 .items-list .list-item .desc {
   color: #FFF;
+}
+.section-type1 .btn-more {
+  margin-top: 14rem;
+}
+@media only screen and (max-width: 768px) {
+  .section-type1 .btn-more {
+    margin-top: 6rem;
+  }
 }
 
 .fancybox-button[disabled] {
@@ -6791,29 +6379,32 @@ section {
   }
 }
 
-.first-section .container {
-  display: flex;
-  column-gap: 9.8rem;
+.first-section .title-wrapper {
+  display: block;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto 2.4rem auto;
+}
+.first-section .title-wrapper * {
+  line-height: 1.4;
+  text-align: center;
+}
+.first-section .title-wrapper .title1 {
+  margin-bottom: 1.2rem;
 }
 @media only screen and (max-width: 768px) {
-  .first-section .container {
-    display: block;
+  .first-section .title-wrapper .title1 {
+    font-size: 2rem;
   }
 }
-.first-section .container:after {
-  display: none;
-}
-.first-section .main-title {
-  line-height: 1.4;
-  margin-bottom: 2.8rem;
-}
 @media only screen and (max-width: 768px) {
-  .first-section .main-title {
-    margin-bottom: 2rem;
+  .first-section .title-wrapper .title2 {
+    font-size: 1.8rem;
   }
 }
 .first-section .desc {
   line-height: 2.1;
+  text-align: center;
 }
 @media only screen and (max-width: 768px) {
   .first-section .desc {
@@ -7961,117 +7552,8 @@ section {
     padding-top: 20rem;
   }
 }
-#top-page .reasons-section .items-list {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-#top-page .reasons-section .items-list .list-item {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-#top-page .reasons-section .items-list .list-item:not(:last-child) {
-  margin-bottom: 10rem;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .reasons-section .items-list .list-item:not(:last-child) {
-    margin-bottom: 4rem;
-  }
-}
-#top-page .reasons-section .items-list .list-item:after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 50%;
-  background-color: #003893;
-  left: 0;
-  bottom: -6rem;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .reasons-section .items-list .list-item:after {
-    height: 100%;
-    bottom: 0;
-  }
-}
-#top-page .reasons-section .items-list .list-item .left-right {
-  column-gap: 0;
-  align-items: center;
-  z-index: 1;
-}
-#top-page .reasons-section .items-list .list-item .left-right .left-part {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding: 6.1rem 2% 6.1rem 6%;
-  background-color: #002A7A;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .reasons-section .items-list .list-item .left-right .left-part {
-    padding: 1.6rem;
-  }
-}
-#top-page .reasons-section .items-list .list-item .left-right .left-part .part-container {
-  display: block;
-  position: relative;
-  width: 100%;
-  max-width: 54rem;
-}
-#top-page .reasons-section .items-list .list-item .left-right .right-part {
-  width: 56%;
-  max-width: 82rem;
-  flex-shrink: 0;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .reasons-section .items-list .list-item .left-right .right-part {
-    width: 100%;
-  }
-}
-#top-page .reasons-section .items-list .list-item .left-right.reverse .left-part {
-  padding: 6.1rem 6% 6.1rem 2%;
-}
-#top-page .reasons-section .items-list .list-item .number-label {
-  display: block;
-  position: relative;
-  margin-bottom: 3.6rem;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .reasons-section .items-list .list-item .number-label {
-    margin-bottom: 1.2rem;
-  }
-}
-@media only screen and (max-width: 768px) {
-  #top-page .reasons-section .items-list .list-item .number-label .label {
-    font-size: 3rem;
-  }
-}
-#top-page .reasons-section .items-list .list-item .number-label .number {
-  font-size: 10rem;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .reasons-section .items-list .list-item .number-label .number {
-    font-size: 4rem;
-  }
-}
-#top-page .reasons-section .items-list .list-item .number-label * {
-  color: #FFF;
-  font-style: italic;
-  line-height: 1;
-}
-#top-page .reasons-section .items-list .list-item .main-title {
-  color: #FFF;
-}
-#top-page .reasons-section .items-list .list-item .desc {
-  color: #FFF;
-}
-#top-page .reasons-section .btn-more {
-  margin-top: 14rem;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .reasons-section .btn-more {
-    margin-top: 6rem;
-  }
+#top-page .business-section {
+  background-color: #FFF;
 }
 #top-page .business-section .business-list {
   width: 100%;
@@ -8390,258 +7872,96 @@ section {
   }
 }
 
-#concept-page .top-section {
-  padding-bottom: 0;
-}
-#concept-page .top-section .main-title {
-  text-align: center;
-  margin-bottom: 3.6rem;
+#reason-page .reasons-section {
+  background-color: #FFF;
+  padding-bottom: 18rem;
 }
 @media only screen and (max-width: 768px) {
-  #concept-page .top-section .main-title {
-    margin-bottom: 2.8rem;
+  #reason-page .reasons-section {
+    padding-bottom: 8rem;
   }
 }
-#concept-page .top-section .items-list {
+#reason-page .reasons-section .main-title {
+  margin-bottom: 0.4rem;
+}
+#reason-page .reasons-section .sub-title {
+  line-height: 1.5;
+  margin-bottom: 1.2rem;
+  color: #FFF;
+}
+
+#company-page .top-section .top-title {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .top-section .top-title {
+    margin-bottom: 2.4rem;
+  }
+}
+#company-page .top-section .items-list {
+  width: fit-content;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
+  column-gap: 1.6rem;
+  margin: 0 auto 6.4rem auto;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .top-section .items-list {
+    column-gap: 0;
+    margin-bottom: 3rem;
+  }
+}
+#company-page .top-section .items-list .list-item {
+  display: block;
+  position: relative;
+  width: 100%;
+  max-width: 16rem;
+}
+#company-page .top-section .items-list .list-item .item-bg {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+#company-page .top-section .items-list .list-item .item-container {
+  display: block;
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+#company-page .top-section .items-list .list-item .item-container * {
+  color: #FFF;
+  text-align: center;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .top-section .items-list .list-item .item-container .en-title {
+    font-size: 1.2rem;
+  }
+}
+#company-page .top-section .bottom-desc {
   display: block;
   position: relative;
   width: fit-content;
+  height: fit-content;
+  padding: 2.4rem 6.4rem;
+  border-radius: 0.8rem;
+  background-color: #003893;
+  color: #FFF;
+  text-align: center;
   margin: 0 auto;
 }
 @media only screen and (max-width: 768px) {
-  #concept-page .top-section .items-list .list-item:not(:last-child) {
-    margin-bottom: 1.2rem;
+  #company-page .top-section .bottom-desc {
+    padding: 2rem 1.6rem;
   }
 }
-@media only screen and (max-width: 768px) {
-  #concept-page .top-section .items-list .list-item .desc {
-    line-height: 1.8;
-  }
-}
-#concept-page .promise-section {
-  background-color: #FFF;
-}
-#concept-page .promise-section .links-list {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  column-gap: 7.6rem;
-  row-gap: 4.8rem;
-  margin-bottom: 6.4rem;
-}
-@media only screen and (max-width: 768px) {
-  #concept-page .promise-section .links-list {
-    column-gap: 1.6rem;
-    row-gap: 0rem;
-    margin-bottom: 4rem;
-  }
-}
-#concept-page .promise-section .links-list .link-item {
-  display: block;
-  position: relative;
-  width: 20rem;
-}
-@media only screen and (max-width: 768px) {
-  #concept-page .promise-section .links-list .link-item {
-    width: 16rem;
-  }
-}
-#concept-page .promise-section .links-list .link-item .scrolldown {
-  display: block;
-  position: absolute;
-  bottom: 3.6rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-#concept-page .promise-section .links-list .thumb-wrapper .thumb-img {
-  aspect-ratio: 1/1;
-  border-radius: 90rem;
-}
-#concept-page .promise-section .links-list .item-title {
-  text-align: center;
-  margin-top: 1.6rem;
-  line-height: 1.6;
-}
-
-#flow-page .why-section {
-  margin: 8.2rem 0;
-}
-@media only screen and (max-width: 1500px) {
-  #flow-page .why-section {
-    margin: 0;
-  }
-}
-
-#modelhouse-page .modelhouse-image {
-  display: block;
-  position: relative;
-  width: 100%;
-  background-attachment: fixed;
-  background-image: url(../img/modelhouseimage001.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  aspect-ratio: 11/4;
-  max-height: 50rem;
-}
-@media only screen and (max-width: 768px) {
-  #modelhouse-page .modelhouse-image {
-    aspect-ratio: 4/3;
-    object-fit: cover;
-  }
-}
-#modelhouse-page .modelhouse-section {
-  background-color: unset;
-  margin-bottom: 0;
-}
-#modelhouse-page .modelhouse-section * {
-  color: #231815;
-}
-#modelhouse-page .modelhouse-section .items-list .list-item {
-  border-color: #231815;
-}
-#modelhouse-page .why-section .left-right {
-  align-items: center;
-}
-#reform-page .sub-concept .links-list {
-  width: 100%;
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  column-gap: 7.6rem;
-  row-gap: 4.8rem;
-  margin: 8.2rem auto 0 auto;
-}
-@media only screen and (max-width: 768px) {
-  #reform-page .sub-concept .links-list {
-    column-gap: 1.6rem;
-    row-gap: 0rem;
-    margin-top: 5.2rem;
-  }
-}
-#reform-page .sub-concept .links-list .link-item {
-  display: block;
-  position: relative;
-  width: 28rem;
-}
-@media only screen and (max-width: 768px) {
-  #reform-page .sub-concept .links-list .link-item {
-    width: 16rem;
-  }
-}
-#reform-page .sub-concept .links-list .link-item .scrolldown {
-  display: block;
-  position: absolute;
-  bottom: 3.6rem;
-  left: 50%;
-  transform: translateX(-50%);
-}
-#reform-page .sub-concept .links-list .thumb-wrapper .thumb-img {
-  aspect-ratio: 1/1;
-  border-radius: 90rem;
-}
-#reform-page .sub-concept .links-list .item-title {
-  text-align: center;
-  margin-top: 1.6rem;
-  line-height: 1.6;
-}
-
-#restaurant-page .experienct-section {
-  background-color: #FFF;
-}
-#restaurant-page .image-gallery .img-attachment {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 3840/1920;
-}
-#restaurant-page .image-gallery .img-attachment .background-img {
-  width: 100%;
-  height: 100%;
-  /* background-image: url(../img/scenic-area.jpg); */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  /* transition: background-image 1s ease-in-out; */
-}
-#restaurant-page .image-gallery .img-attachment .img-gallery {
-  position: relative;
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-}
-#restaurant-page .image-gallery .img-attachment .img-gallery .img-item {
-  width: 14rem;
-  aspect-ratio: 7/5;
-  border-bottom: 0.2rem solid #FFF;
-  border-top: 0.2rem solid #FFF;
-  border-right: 0.2rem solid #FFF;
-  flex-shrink: 0;
-}
-@media screen and (max-width: 768px) {
-  #restaurant-page .image-gallery .img-attachment .img-gallery .img-item {
-    width: 8.5rem;
-    border: 0.1rem solid #FFF;
-  }
-}
-#restaurant-page .image-gallery .img-attachment .img-gallery .img-item:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-#restaurant-page .image-gallery .img-attachment .img-gallery .img-item:first-child {
-  border-left: 0.2rem solid #FFF;
-}
-@media screen and (max-width: 467px) {
-  #restaurant-page .image-gallery .img-attachment .img-gallery .img-item:first-child {
-    border-left: 0.1rem solid #FFF;
-  }
-}
-@media screen and (min-width: 468px) and (max-width: 1024px) {
-  #restaurant-page .image-gallery .img-attachment .img-gallery .img-item:first-child {
-    border-left: 0.1rem solid #FFF;
-  }
-}
-#restaurant-page .image-gallery .img-attachment .img-gallery .img-item:last-child {
-  border-right: 0.2rem solid #FFF;
-}
-@media screen and (max-width: 467px) {
-  #restaurant-page .image-gallery .img-attachment .img-gallery .img-item:last-child {
-    border-right: 0.1rem solid #FFF;
-  }
-}
-@media screen and (min-width: 468px) and (max-width: 1024px) {
-  #restaurant-page .image-gallery .img-attachment .img-gallery .img-item:last-child {
-    border-right: 0.1rem solid #FFF;
-  }
-}
-#restaurant-page .image-gallery .img-attachment .img-gallery .img-item img {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-#restaurant-page .image-gallery .img-attachment .img-gallery .img-item.active img {
-  border: 2px solid #FF9800;
-}
-@media screen and (max-width: 768px) {
-  #restaurant-page .image-gallery .img-attachment {
-    aspect-ratio: 5/4;
-  }
-}
-#restaurant-page .image-gallery .effectFadeIn {
-  animation: fadeIn 1s infinite;
-  -webkit-animation: fadeIn 1s infinite;
-  /* Safari and Chrome */
-}
-
 #company-page .overview-section .left-right {
   column-gap: 3.2rem;
 }

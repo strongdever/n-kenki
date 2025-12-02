@@ -1,11 +1,11 @@
 <?php get_header(); ?>
-<main class="common-main" id="company-page">
+<main class="common-main" id="reason-page">
     <div class="sub-mainview">
         <div class="pagehead-text">
             <h1 class="jp-title font-40-700"><?php the_title(); ?></h1>
-            <p class="en-title font-18-700 font-en">COMPANY</p>
+            <p class="en-title font-18-700 font-en">REASON</p>
         </div>
-        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/companypageimage.jpg"
+        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/reasonpageimage.jpg"
             alt="<?php the_title(); ?>">
     </div>
 
@@ -16,43 +16,6 @@
             } ?>
         </div>
     </div>
-
-    <section class="top-section">
-        <div class="container">
-            <h2 class="top-title font-26-700 main-color">
-                「安全」「安心」「高品質」を元に<br>
-                お客様のニーズにお応えするの<br class="sp">はもちろんのこと、<br class="pc">
-                当社ではこの３共を大切にしています。
-            </h2>
-            <ul class="items-list">
-                <li class="list-item">
-                    <div class="item-container">
-                        <p class="en-title font-16-700 font-en">Share</p>
-                        <h3 class="jp-title font-26-700">共有</h3>
-                    </div>
-                    <img class="item-bg" src="<?php bloginfo('template_url'); ?>/img/flagbg.png" alt="共有">
-                </li>
-                <li class="list-item">
-                    <div class="item-container">
-                        <p class="en-title font-16-700 font-en">Coexistence</p>
-                        <h3 class="jp-title font-26-700">共存</h3>
-                    </div>
-                    <img class="item-bg" src="<?php bloginfo('template_url'); ?>/img/flagbg.png" alt="共存">
-                </li>
-                <li class="list-item">
-                    <div class="item-container">
-                        <p class="en-title font-16-700 font-en">Mutual prosoerity</p>
-                        <h3 class="jp-title font-26-700">共栄</h3>
-                    </div>
-                    <img class="item-bg" src="<?php bloginfo('template_url'); ?>/img/flagbg.png" alt="共栄">
-                </li>
-            </ul>
-            <p class="bottom-desc font-20-700">
-                地域、お客様、社員と価値観を共有し、<br class="sp">共に生き、共に栄える――<br>
-                それが当社の理念です。
-            </p>
-        </div>
-    </section>
 
     <section class="first-section">
         <div class="container">
@@ -73,15 +36,15 @@
         </div>
     </section>
 
-    <section class="companys-section section-type1">
+    <section class="reasons-section section-type1">
         <div class="container">
             <div class="section-title">
-                <p class="en-title font-60-700 font-en main-color">companyS</p>
+                <p class="en-title font-60-700 font-en main-color">REASONS</p>
                 <h2 class="jp-title font-16-700">なぜ、KEnKIが選ばれるのか？</h2>
             </div>
         </div>
-        <ul class="companys-list items-list">
-            <li class="company-item list-item">
+        <ul class="reasons-list items-list">
+            <li class="reason-item list-item">
                 <div class="left-right">
                     <div class="left-part">
                         <div class="part-container">
@@ -99,12 +62,12 @@
                         </div>
                     </div>
                     <div class="right-part thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/companysimg001.jpg"
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/reasonsimg001.jpg"
                             alt="圧倒的な技術力と実績">
                     </div>
                 </div>
             </li>
-            <li class="company-item list-item">
+            <li class="reason-item list-item">
                 <div class="left-right reverse">
                     <div class="left-part">
                         <div class="part-container">
@@ -124,12 +87,12 @@
                         </div>
                     </div>
                     <div class="right-part thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/companysimg002.jpg"
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/reasonsimg002.jpg"
                             alt="譲れない「安全」へのこだわり">
                     </div>
                 </div>
             </li>
-            <li class="company-item list-item">
+            <li class="reason-item list-item">
                 <div class="left-right">
                     <div class="left-part">
                         <div class="part-container">
@@ -149,7 +112,7 @@
                         </div>
                     </div>
                     <div class="right-part thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/companysimg003.jpg"
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/reasonsimg003.jpg"
                             alt="譲れない「安全」へのこだわり">
                     </div>
                 </div>

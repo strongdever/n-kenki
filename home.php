@@ -111,7 +111,7 @@
             alt="ひとつでも当てはまれば、ぜひ私たちにご相談ください！">
     </section>
 
-    <section class="reasons-section">
+    <section class="reasons-section section-type1">
         <div class="container">
             <div class="section-title">
                 <p class="en-title font-60-700 font-en main-color">REASONS</p>
