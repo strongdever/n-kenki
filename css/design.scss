@@ -6650,8 +6650,9 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 	width: 100%;
 	line-height: 1.4;
 	padding-bottom: 1.2rem;
-	border-bottom: 0.1rem solid $primary_color;
+	border-bottom: 0.1rem solid $main_color;
 	margin-bottom: 3.6rem;
+	color: $main_color;
 
 	@media only screen and (max-width: 768px) {
 		font-size: 1.8rem;
@@ -6662,11 +6663,11 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 		content: '';
 		display: block;
 		position: absolute;
-		width: 30%;
+		width: 15%;
 		height: 0.4rem;
 		bottom: 0;
 		left: 0;
-		background-color: $primary_color;
+		background-color: $main_color;
 	}
 }
 
@@ -7391,70 +7392,6 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 	}
 }
 
-.access-section {
-	.left-right {
-		flex-direction: column;
-
-		@media only screen and (max-width: 768px) {
-			row-gap: 0;
-		}
-	}
-
-	.company-map {
-		width: 100%;
-
-		iframe {
-			width: 100%;
-		}
-	}
-
-	#Company-accses {
-		margin-bottom: 0;
-	}
-
-	.map-icon {
-		transform: translateY(0.5rem);
-
-		@media only screen and (max-width: 768px) {
-			width: 2.2rem;
-		}
-	}
-
-	.tel-icon {
-		padding: 0.2rem 0.8rem;
-		border-radius: 0.2rem;
-		background-color: #e8e6e6;
-		font-size: 1.2rem !important;
-	}
-
-	.company-accessinfo {
-		margin-bottom: 0 !important;
-
-		table {
-
-			td,
-			th {
-				font-size: 1.6rem !important;
-
-				@media only screen and (max-width: 768px) {
-					line-height: 1.4;
-					padding: 1.2rem 0.8rem !important;
-					font-size: 1.5rem !important;
-					letter-spacing: 0.05em;
-				}
-			}
-		}
-
-		* {
-			font-size: 1.6rem;
-
-			@media only screen and (max-width: 768px) {
-				font-size: 1.4rem;
-			}
-		}
-	}
-}
-
 .steps-section {
 	.steps-list {
 		.step-item {
@@ -7615,6 +7552,65 @@ $gallery_gap_sp: 0.3rem;
 			&:hover img {
 				transform: scale(1.1);
 			}
+		}
+	}
+}
+
+.message-section {
+	padding-top: 5rem;
+
+	.section-img {
+		@media only screen and (max-width: 768px) {
+			aspect-ratio: 375 / 198;
+			object-fit: cover;
+		}
+	}
+
+	.main-content {
+		padding: 6.4rem 3.2rem;
+		border-radius: 1.6rem;
+		background-color: #FFF;
+		margin-top: -12rem;
+
+		@media only screen and (max-width: 768px) {
+			padding: 6rem 3.2rem;
+			margin-top: -6rem;
+		}
+	}
+
+	.left-right {
+		column-gap: 5.2rem;
+
+		@media only screen and (max-width: 768px) {
+			flex-direction: column-reverse;
+			row-gap: 4rem;
+		}
+
+		.right-part {
+			width: 48rem;
+			flex-shrink: 0;
+
+			@media only screen and (max-width: 768px) {
+				width: 100%;
+			}
+		}
+	}
+
+	.name {
+		margin-top: 3.6rem;
+		line-height: 1;
+		text-align: center;
+
+		@media only screen and (max-width: 768px) {
+			font-size: 1.8rem;
+		}
+	}
+
+	.btn-more {
+		margin: 5.2rem auto 0 0;
+
+		@media only screen and (max-width: 768px) {
+			margin: 4rem auto 0 auto;
 		}
 	}
 }
@@ -8180,65 +8176,6 @@ $gallery_gap_sp: 0.3rem;
 		}
 	}
 
-	.message-section {
-		padding-top: 5rem;
-
-		.section-img {
-			@media only screen and (max-width: 768px) {
-				aspect-ratio: 375 / 198;
-				object-fit: cover;
-			}
-		}
-
-		.main-content {
-			padding: 6.4rem 3.2rem;
-			border-radius: 1.6rem;
-			background-color: #FFF;
-			margin-top: -12rem;
-
-			@media only screen and (max-width: 768px) {
-				padding: 6rem 3.2rem;
-				margin-top: -6rem;
-			}
-		}
-
-		.left-right {
-			column-gap: 5.2rem;
-
-			@media only screen and (max-width: 768px) {
-				flex-direction: column-reverse;
-				row-gap: 4rem;
-			}
-
-			.right-part {
-				width: 48rem;
-				flex-shrink: 0;
-
-				@media only screen and (max-width: 768px) {
-					width: 100%;
-				}
-			}
-		}
-
-		.name {
-			margin-top: 3.6rem;
-			line-height: 1;
-			text-align: center;
-
-			@media only screen and (max-width: 768px) {
-				font-size: 1.8rem;
-			}
-		}
-
-		.btn-more {
-			margin: 5.2rem auto 0 0;
-
-			@media only screen and (max-width: 768px) {
-				margin: 4rem auto 0 auto;
-			}
-		}
-	}
-
 	.company-recruit {
 		position: relative;
 		display: grid;
@@ -8563,9 +8500,10 @@ $gallery_gap_sp: 0.3rem;
 			}
 		}
 	}
-	.overview-section {
+
+	.common-part {
 		.left-right {
-			column-gap: 3.2rem;
+			column-gap: 5.6rem;
 
 			@media only screen and (max-width: 768px) {
 				row-gap: 0;
@@ -8573,7 +8511,7 @@ $gallery_gap_sp: 0.3rem;
 		}
 
 		.left-part {
-			width: 22rem;
+			width: 28rem;
 			flex-shrink: 0;
 
 			@media only screen and (max-width: 768px) {
@@ -8583,20 +8521,46 @@ $gallery_gap_sp: 0.3rem;
 
 		.right-part {
 			width: 100%;
+			padding-top: 1.4rem;
 		}
+	}
 
+	.overview-section {
 		#Company-table {
 			margin-bottom: 0;
 
 			dl {
+				dt {
+					width: 20%;
+
+					@media only screen and (max-width: 768px) {
+						width: 40%;
+					}
+				}
+
+				dd {
+					width: 100%;
+				}
 
 				dt,
 				dd {
-					padding: 2.8rem 2rem;
+					padding: 2.0rem 2rem;
+					line-height: 1.6;
 
 					@media only screen and (max-width: 768px) {
 						line-height: 1.8;
 						padding: 1.6rem 0.6rem;
+						font-size: 1.4rem;
+					}
+
+					a {
+						padding-left: 1.6rem;
+						line-height: 1.4;
+						text-decoration: underline;
+
+						@media only screen and (max-width: 768px) {
+							padding-left: 0;
+						}
 					}
 				}
 
@@ -8611,127 +8575,190 @@ $gallery_gap_sp: 0.3rem;
 		}
 	}
 
-	.target-section {
+	.history-section {
 		background-color: #FFF;
 
-		.sec-title {
-			margin-bottom: 6rem;
+		#Company-history {
+			margin-bottom: 0;
 
-			@media only screen and (max-width: 768px) {
-				margin-bottom: 4rem;
-			}
-		}
+			.company-historylist {
+				dl {
+					padding: 1.6rem 0;
+					border: unset;
 
-		.items-list {
-			display: grid;
-			grid-template-columns: repeat(2, minmax(0px, 1fr));
-			column-gap: 6.4rem;
-			row-gap: 6.4rem;
-
-			@media only screen and (max-width: 768px) {
-				grid-template-columns: repeat(1, minmax(0px, 1fr));
-				row-gap: 4.4rem;
-			}
-
-			.list-item {
-				display: block;
-				position: relative;
-				width: 100%;
-
-				.title-wrapper {
-					display: flex;
-					width: 100%;
-					margin-bottom: 1.6rem;
-
-					.item-title {
-						display: block;
-						position: relative;
-						width: 80%;
-						line-height: 1.6;
+					@media only screen and (max-width: 768px) {
+						padding: 1.2rem 0;
 					}
 
-					.number {
-						display: block;
-						position: absolute;
-						width: fit-content;
-						line-height: 1;
-						font-size: 8rem;
-						font-weight: 600;
-						color: $main_color;
-						right: -1rem;
-						top: -2rem;
+					&:first-child {
+						padding-top: 0;
+					}
+
+					dt {
+						width: 20%;
+						flex-shrink: 0;
+						font-size: 2rem;
+						line-height: 1.5;
 
 						@media only screen and (max-width: 768px) {
-							font-size: 6rem;
+							width: 30%;
+							padding-right: 1rem;
+							font-size: 1.6rem;
 						}
 					}
-				}
 
-				.desc {
-					margin-top: 1.2rem;
+					dd {
+						width: 100%;
+						line-height: 1.5;
+					}
 				}
 			}
 		}
 	}
 
-	.message-section {
-		padding-top: 0;
+	.access-section {
+		#Company-accses {
+			margin-bottom: 0;
+
+			iframe {
+				width: 100%;
+				aspect-ratio: 2 / 1;
+
+				@media only screen and (max-width: 768px) {
+					aspect-ratio: 1 / 1;
+				}
+			}
+
+			.company-accessinfo {
+				table {
+
+					th,
+					td {
+						font-size: 1.6rem;
+
+						@media only screen and (max-width: 768px) {
+							font-size: 1.5rem;
+							padding: 1.2rem 0.8rem;
+						}
+					}
+
+					th {
+						@media only screen and (max-width: 768px) {
+							width: 33%;
+						}
+					}
+				}
+
+				.map-icon {
+					transform: translateY(0.5rem);
+				}
+			}
+		}
+	}
+}
+
+
+#recruit-page {
+	.top-section {
+		.main-title {
+			text-align: center;
+			white-space: nowrap;
+		}
+	}
+
+	.recruit-section {
+		.content-block {
+			padding: 5.2rem 7.2rem;
+			border-radius: 0.8rem;
+			box-shadow: 0 0 0.8rem #00000023;
+			background-color: #FFF;
+		}
 
 		.items-list {
-			display: block;
 			position: relative;
 			width: 100%;
+			display: block;
 
 			.list-item {
+				position: relative;
+				width: 100%;
+				display: block;
+
 				&:not(:last-child) {
-					margin-bottom: 14rem;
+					margin-bottom: 7.2rem;
 
 					@media only screen and (max-width: 768px) {
-						margin-bottom: 8rem;
+						margin-bottom: 5rem;
 					}
 				}
 			}
 		}
 
-		.left-right {
-			.right-part {
-				width: 40rem;
-				flex-shrink: 0;
-			}
-		}
-
-		.thumb-img {
-			@media only screen and (max-width: 768px) {
-				margin-bottom: 4.4rem;
-			}
-		}
-
-		.name-title {
-			line-height: 1.4;
-			margin-bottom: 2rem;
-		}
-
-		.message-content {
-			@media only screen and (max-width: 768px) {
-				font-size: 1.4rem;
-			}
-		}
-
-		.btns {
+		.recruit-item {
 			display: flex;
-			position: relative;
-			align-items: center;
-			column-gap: 2.4rem;
-			margin-top: 5.6rem;
+			border-bottom: 1px solid #eee;
+			padding: 15px 0;
+			align-items: flex-start;
+			/* Align items to the top for multi-line content */
 
-			@media only screen and (max-width: 768px) {
+			&:last-child {
+				border-bottom: none;
+			}
+		}
+
+		.item-label {
+			flex: 0 0 15rem;
+			/* Fixed width for the label */
+			font-weight: bold;
+			padding-right: 2rem;
+			align-self: flex-start;
+			/* Ensure label stays at the top */
+		}
+
+		.item-value {
+			flex-grow: 1;
+			/* Take up remaining space */
+		}
+
+		.item-value p {
+			margin: 0 0 5px 0;
+			/* Adjust spacing for paragraphs within item-value */
+			padding: 0;
+		}
+
+		.item-value p:last-child {
+			margin-bottom: 0;
+		}
+
+		/* Style for items that span the full width (e.g., 仕事内容, 特記事項, 優遇条件) */
+		.recruit-item.full-width {
+			flex-direction: column;
+			/* Stack label and value vertically */
+			align-items: flex-start;
+		}
+
+		.recruit-item.full-width .item-label {
+			margin-bottom: 1rem;
+			/* Space between label and content */
+			padding-right: 0;
+		}
+
+		/* Responsive adjustments */
+		@media (max-width: 768px) {
+			.recruit-item {
 				flex-direction: column;
-				row-gap: 2.4rem;
+				align-items: flex-start;
 			}
 
-			.btn-more {
-				width: 28rem;
-				margin: 0;
+			.item-label {
+				flex: auto;
+				/* Allow label to take full width */
+				margin-bottom: 5px;
+				padding-right: 0;
+			}
+
+			.content-block {
+				padding: 2rem 1.6rem;
 			}
 		}
 	}

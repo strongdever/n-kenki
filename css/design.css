@@ -6186,8 +6186,9 @@ section {
   width: 100%;
   line-height: 1.4;
   padding-bottom: 1.2rem;
-  border-bottom: 0.1rem solid #231815;
+  border-bottom: 0.1rem solid #002A7A;
   margin-bottom: 3.6rem;
+  color: #002A7A;
 }
 @media only screen and (max-width: 768px) {
   .underline-title {
@@ -6199,11 +6200,11 @@ section {
   content: "";
   display: block;
   position: absolute;
-  width: 30%;
+  width: 15%;
   height: 0.4rem;
   bottom: 0;
   left: 0;
-  background-color: #231815;
+  background-color: #002A7A;
 }
 
 .globalbtn {
@@ -6882,62 +6883,6 @@ section {
     opacity: 0;
   }
 }
-.access-section .left-right {
-  flex-direction: column;
-}
-@media only screen and (max-width: 768px) {
-  .access-section .left-right {
-    row-gap: 0;
-  }
-}
-.access-section .company-map {
-  width: 100%;
-}
-.access-section .company-map iframe {
-  width: 100%;
-}
-.access-section #Company-accses {
-  margin-bottom: 0;
-}
-.access-section .map-icon {
-  transform: translateY(0.5rem);
-}
-@media only screen and (max-width: 768px) {
-  .access-section .map-icon {
-    width: 2.2rem;
-  }
-}
-.access-section .tel-icon {
-  padding: 0.2rem 0.8rem;
-  border-radius: 0.2rem;
-  background-color: #e8e6e6;
-  font-size: 1.2rem !important;
-}
-.access-section .company-accessinfo {
-  margin-bottom: 0 !important;
-}
-.access-section .company-accessinfo table td,
-.access-section .company-accessinfo table th {
-  font-size: 1.6rem !important;
-}
-@media only screen and (max-width: 768px) {
-  .access-section .company-accessinfo table td,
-  .access-section .company-accessinfo table th {
-    line-height: 1.4;
-    padding: 1.2rem 0.8rem !important;
-    font-size: 1.5rem !important;
-    letter-spacing: 0.05em;
-  }
-}
-.access-section .company-accessinfo * {
-  font-size: 1.6rem;
-}
-@media only screen and (max-width: 768px) {
-  .access-section .company-accessinfo * {
-    font-size: 1.4rem;
-  }
-}
-
 .steps-section .steps-list .step-item {
   display: block;
   position: relative;
@@ -7081,6 +7026,64 @@ section {
 }
 .gallery-container .thumbnails-container .thumbnail:hover img {
   transform: scale(1.1);
+}
+
+.message-section {
+  padding-top: 5rem;
+}
+@media only screen and (max-width: 768px) {
+  .message-section .section-img {
+    aspect-ratio: 375/198;
+    object-fit: cover;
+  }
+}
+.message-section .main-content {
+  padding: 6.4rem 3.2rem;
+  border-radius: 1.6rem;
+  background-color: #FFF;
+  margin-top: -12rem;
+}
+@media only screen and (max-width: 768px) {
+  .message-section .main-content {
+    padding: 6rem 3.2rem;
+    margin-top: -6rem;
+  }
+}
+.message-section .left-right {
+  column-gap: 5.2rem;
+}
+@media only screen and (max-width: 768px) {
+  .message-section .left-right {
+    flex-direction: column-reverse;
+    row-gap: 4rem;
+  }
+}
+.message-section .left-right .right-part {
+  width: 48rem;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 768px) {
+  .message-section .left-right .right-part {
+    width: 100%;
+  }
+}
+.message-section .name {
+  margin-top: 3.6rem;
+  line-height: 1;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .message-section .name {
+    font-size: 1.8rem;
+  }
+}
+.message-section .btn-more {
+  margin: 5.2rem auto 0 0;
+}
+@media only screen and (max-width: 768px) {
+  .message-section .btn-more {
+    margin: 4rem auto 0 auto;
+  }
 }
 
 #top-page .mainview {
@@ -7608,63 +7611,6 @@ section {
     padding-right: 0;
   }
 }
-#top-page .message-section {
-  padding-top: 5rem;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .message-section .section-img {
-    aspect-ratio: 375/198;
-    object-fit: cover;
-  }
-}
-#top-page .message-section .main-content {
-  padding: 6.4rem 3.2rem;
-  border-radius: 1.6rem;
-  background-color: #FFF;
-  margin-top: -12rem;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .message-section .main-content {
-    padding: 6rem 3.2rem;
-    margin-top: -6rem;
-  }
-}
-#top-page .message-section .left-right {
-  column-gap: 5.2rem;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .message-section .left-right {
-    flex-direction: column-reverse;
-    row-gap: 4rem;
-  }
-}
-#top-page .message-section .left-right .right-part {
-  width: 48rem;
-  flex-shrink: 0;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .message-section .left-right .right-part {
-    width: 100%;
-  }
-}
-#top-page .message-section .name {
-  margin-top: 3.6rem;
-  line-height: 1;
-  text-align: center;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .message-section .name {
-    font-size: 1.8rem;
-  }
-}
-#top-page .message-section .btn-more {
-  margin: 5.2rem auto 0 0;
-}
-@media only screen and (max-width: 768px) {
-  #top-page .message-section .btn-more {
-    margin: 4rem auto 0 auto;
-  }
-}
 #top-page .company-recruit {
   position: relative;
   display: grid;
@@ -7962,152 +7908,223 @@ section {
     padding: 2rem 1.6rem;
   }
 }
-#company-page .overview-section .left-right {
-  column-gap: 3.2rem;
+#company-page .common-part .left-right {
+  column-gap: 5.6rem;
 }
 @media only screen and (max-width: 768px) {
-  #company-page .overview-section .left-right {
+  #company-page .common-part .left-right {
     row-gap: 0;
   }
 }
-#company-page .overview-section .left-part {
-  width: 22rem;
+#company-page .common-part .left-part {
+  width: 28rem;
   flex-shrink: 0;
 }
 @media only screen and (max-width: 768px) {
-  #company-page .overview-section .left-part {
+  #company-page .common-part .left-part {
     width: fit-content;
   }
 }
-#company-page .overview-section .right-part {
+#company-page .common-part .right-part {
   width: 100%;
+  padding-top: 1.4rem;
 }
 #company-page .overview-section #Company-table {
   margin-bottom: 0;
 }
+#company-page .overview-section #Company-table dl dt {
+  width: 20%;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .overview-section #Company-table dl dt {
+    width: 40%;
+  }
+}
+#company-page .overview-section #Company-table dl dd {
+  width: 100%;
+}
 #company-page .overview-section #Company-table dl dt,
 #company-page .overview-section #Company-table dl dd {
-  padding: 2.8rem 2rem;
+  padding: 2rem 2rem;
+  line-height: 1.6;
 }
 @media only screen and (max-width: 768px) {
   #company-page .overview-section #Company-table dl dt,
   #company-page .overview-section #Company-table dl dd {
     line-height: 1.8;
     padding: 1.6rem 0.6rem;
+    font-size: 1.4rem;
+  }
+}
+#company-page .overview-section #Company-table dl dt a,
+#company-page .overview-section #Company-table dl dd a {
+  padding-left: 1.6rem;
+  line-height: 1.4;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .overview-section #Company-table dl dt a,
+  #company-page .overview-section #Company-table dl dd a {
+    padding-left: 0;
   }
 }
 #company-page .overview-section #Company-table dl:first-child dt,
 #company-page .overview-section #Company-table dl:first-child dd {
   padding-top: 0;
 }
-#company-page .target-section {
+#company-page .history-section {
   background-color: #FFF;
 }
-#company-page .target-section .sec-title {
-  margin-bottom: 6rem;
+#company-page .history-section #Company-history {
+  margin-bottom: 0;
+}
+#company-page .history-section #Company-history .company-historylist dl {
+  padding: 1.6rem 0;
+  border: unset;
 }
 @media only screen and (max-width: 768px) {
-  #company-page .target-section .sec-title {
-    margin-bottom: 4rem;
+  #company-page .history-section #Company-history .company-historylist dl {
+    padding: 1.2rem 0;
   }
 }
-#company-page .target-section .items-list {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0px, 1fr));
-  column-gap: 6.4rem;
-  row-gap: 6.4rem;
-}
-@media only screen and (max-width: 768px) {
-  #company-page .target-section .items-list {
-    grid-template-columns: repeat(1, minmax(0px, 1fr));
-    row-gap: 4.4rem;
-  }
-}
-#company-page .target-section .items-list .list-item {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-#company-page .target-section .items-list .list-item .title-wrapper {
-  display: flex;
-  width: 100%;
-  margin-bottom: 1.6rem;
-}
-#company-page .target-section .items-list .list-item .title-wrapper .item-title {
-  display: block;
-  position: relative;
-  width: 80%;
-  line-height: 1.6;
-}
-#company-page .target-section .items-list .list-item .title-wrapper .number {
-  display: block;
-  position: absolute;
-  width: fit-content;
-  line-height: 1;
-  font-size: 8rem;
-  font-weight: 600;
-  color: #002A7A;
-  right: -1rem;
-  top: -2rem;
-}
-@media only screen and (max-width: 768px) {
-  #company-page .target-section .items-list .list-item .title-wrapper .number {
-    font-size: 6rem;
-  }
-}
-#company-page .target-section .items-list .list-item .desc {
-  margin-top: 1.2rem;
-}
-#company-page .message-section {
+#company-page .history-section #Company-history .company-historylist dl:first-child {
   padding-top: 0;
 }
-#company-page .message-section .items-list {
-  display: block;
+#company-page .history-section #Company-history .company-historylist dl dt {
+  width: 20%;
+  flex-shrink: 0;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .history-section #Company-history .company-historylist dl dt {
+    width: 30%;
+    padding-right: 1rem;
+    font-size: 1.6rem;
+  }
+}
+#company-page .history-section #Company-history .company-historylist dl dd {
+  width: 100%;
+  line-height: 1.5;
+}
+#company-page .access-section #Company-accses {
+  margin-bottom: 0;
+}
+#company-page .access-section #Company-accses iframe {
+  width: 100%;
+  aspect-ratio: 2/1;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .access-section #Company-accses iframe {
+    aspect-ratio: 1/1;
+  }
+}
+#company-page .access-section #Company-accses .company-accessinfo table th,
+#company-page .access-section #Company-accses .company-accessinfo table td {
+  font-size: 1.6rem;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .access-section #Company-accses .company-accessinfo table th,
+  #company-page .access-section #Company-accses .company-accessinfo table td {
+    font-size: 1.5rem;
+    padding: 1.2rem 0.8rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #company-page .access-section #Company-accses .company-accessinfo table th {
+    width: 33%;
+  }
+}
+#company-page .access-section #Company-accses .company-accessinfo .map-icon {
+  transform: translateY(0.5rem);
+}
+
+#recruit-page .top-section .main-title {
+  text-align: center;
+  white-space: nowrap;
+}
+#recruit-page .recruit-section {
+  /* Style for items that span the full width (e.g., 仕事内容, 特記事項, 優遇条件) */
+  /* Responsive adjustments */
+}
+#recruit-page .recruit-section .content-block {
+  padding: 5.2rem 7.2rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.137254902);
+  background-color: #FFF;
+}
+#recruit-page .recruit-section .items-list {
   position: relative;
   width: 100%;
+  display: block;
 }
-#company-page .message-section .items-list .list-item:not(:last-child) {
-  margin-bottom: 14rem;
-}
-@media only screen and (max-width: 768px) {
-  #company-page .message-section .items-list .list-item:not(:last-child) {
-    margin-bottom: 8rem;
-  }
-}
-#company-page .message-section .left-right .right-part {
-  width: 40rem;
-  flex-shrink: 0;
-}
-@media only screen and (max-width: 768px) {
-  #company-page .message-section .thumb-img {
-    margin-bottom: 4.4rem;
-  }
-}
-#company-page .message-section .name-title {
-  line-height: 1.4;
-  margin-bottom: 2rem;
-}
-@media only screen and (max-width: 768px) {
-  #company-page .message-section .message-content {
-    font-size: 1.4rem;
-  }
-}
-#company-page .message-section .btns {
-  display: flex;
+#recruit-page .recruit-section .items-list .list-item {
   position: relative;
-  align-items: center;
-  column-gap: 2.4rem;
-  margin-top: 5.6rem;
+  width: 100%;
+  display: block;
+}
+#recruit-page .recruit-section .items-list .list-item:not(:last-child) {
+  margin-bottom: 7.2rem;
 }
 @media only screen and (max-width: 768px) {
-  #company-page .message-section .btns {
-    flex-direction: column;
-    row-gap: 2.4rem;
+  #recruit-page .recruit-section .items-list .list-item:not(:last-child) {
+    margin-bottom: 5rem;
   }
 }
-#company-page .message-section .btns .btn-more {
-  width: 28rem;
-  margin: 0;
+#recruit-page .recruit-section .recruit-item {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 15px 0;
+  align-items: flex-start;
+  /* Align items to the top for multi-line content */
+}
+#recruit-page .recruit-section .recruit-item:last-child {
+  border-bottom: none;
+}
+#recruit-page .recruit-section .item-label {
+  flex: 0 0 15rem;
+  /* Fixed width for the label */
+  font-weight: bold;
+  padding-right: 2rem;
+  align-self: flex-start;
+  /* Ensure label stays at the top */
+}
+#recruit-page .recruit-section .item-value {
+  flex-grow: 1;
+  /* Take up remaining space */
+}
+#recruit-page .recruit-section .item-value p {
+  margin: 0 0 5px 0;
+  /* Adjust spacing for paragraphs within item-value */
+  padding: 0;
+}
+#recruit-page .recruit-section .item-value p:last-child {
+  margin-bottom: 0;
+}
+#recruit-page .recruit-section .recruit-item.full-width {
+  flex-direction: column;
+  /* Stack label and value vertically */
+  align-items: flex-start;
+}
+#recruit-page .recruit-section .recruit-item.full-width .item-label {
+  margin-bottom: 1rem;
+  /* Space between label and content */
+  padding-right: 0;
+}
+@media (max-width: 768px) {
+  #recruit-page .recruit-section .recruit-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #recruit-page .recruit-section .item-label {
+    flex: auto;
+    /* Allow label to take full width */
+    margin-bottom: 5px;
+    padding-right: 0;
+  }
+  #recruit-page .recruit-section .content-block {
+    padding: 2rem 1.6rem;
+  }
 }
 
 /*# sourceMappingURL=design.css.map */
