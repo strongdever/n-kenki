@@ -307,24 +307,15 @@ $(function () {
         });
 
         if (isMobile) {
-            $('.trettio-slider').slick({
+            $('.images-section').slick({
                 dots: false,
-                arrows: true,
-                speed: 500,
+                arrows: false,
+                speed: 400,
                 autoplay: true,
                 autoplaySpeed: 3000,
                 slidesToShow: 1,
                 slidesToScroll: 1,
-            });
-
-            $('.reform-slider').slick({
-                dots: false,
-                arrows: true,
-                speed: 500,
-                autoplay: true,
-                autoplaySpeed: 3000,
-                slidesToShow: 1,
-                slidesToScroll: 1,
+                centerMode: true,
             });
         }
 

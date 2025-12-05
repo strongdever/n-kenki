@@ -6962,79 +6962,53 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 	}
 }
 
-.second-section {
+.service-second-section {
+	padding-top: 3rem;
+
 	@media only screen and (max-width: 768px) {
-		padding-top: 0;
+		padding-top: 1rem;
 	}
 
 	.left-right {
 		display: flex;
-		column-gap: 4.8rem;
+		column-gap: 7.2rem;
 
-		.left-part {
-			width: 64%;
+		@media only screen and (max-width: 768px) {
+			row-gap: 1.6rem;
+		}
+
+		.right-part {
+			width: 40%;
 			flex-shrink: 0;
 
 			@media only screen and (max-width: 768px) {
 				width: 100%;
 			}
 		}
+	}
 
-		.right-part {
-			align-content: end;
-			padding-bottom: 10%;
+	.thumb-img {
+		@media only screen and (max-width: 768px) {
+			margin-bottom: 1.6rem;
+		}
+	}
+
+	.main-title {
+		line-height: 1.4;
+
+		@media only screen and (max-width: 768px) {
+			font-size: 2rem;
 		}
 
-		.img1 {
+		span {
 			display: block;
 			position: relative;
-			width: 100%;
-
-			@media only screen and (max-width: 768px) {
-				transform: translateX(-1.6rem);
-			}
-		}
-
-		.white-pannel {
-			display: block;
-			position: relative;
-			width: 80%;
-			padding: 3.2rem;
-			border-radius: 1.6rem;
-			background-color: #fff;
-			box-shadow: 0 0 0.4rem #00000043;
-			margin: -3.6rem auto 0 auto;
-
-			@media only screen and (max-width: 768px) {
-				width: 100%;
-				padding: 2.4rem 1.6rem;
-				border-radius: 1.2rem;
-			}
-		}
-
-		.pannel-title {
 			line-height: 1.4;
-			margin-bottom: 2rem;
-		}
-
-		.img2 {
-			display: block;
-			position: relative;
-			width: 100%;
+			margin-bottom: 0.8rem;
 
 			@media only screen and (max-width: 768px) {
-				width: 80%;
-				transform: translateX(1.6rem);
-				margin-top: -3.6rem;
-				margin-left: auto;
-				box-shadow: 0 0 0.4rem #5d5d5d53;
+				font-size: 2rem;
 			}
-		}
-
-		.img3 {
-			top: 1.2rem;
-			right: -1.2rem;
-			width: 17rem;
 		}
 	}
 }
@@ -8759,6 +8733,151 @@ $gallery_gap_sp: 0.3rem;
 
 			.content-block {
 				padding: 2rem 1.6rem;
+			}
+		}
+	}
+}
+
+#construction-page {
+	.images-section {
+		display: grid;
+		grid-template-columns: repeat(3, minmax(0px, 1fr));
+		column-gap: 4%;
+		padding-top: 2rem;
+		padding-left: 6%;
+		padding-right: 6%;
+
+		@media only screen and (max-width: 1440px) {
+			column-gap: 2%;
+			padding-top: 1.6rem;
+			padding-left: 1.6rem;
+			padding-right: 1.6rem;
+		}
+
+		@media only screen and (max-width: 768px) {
+			grid-template-columns: repeat(1, minmax(0px, 1fr));
+			padding: 1rem 0;
+		}
+
+		img {
+			display: block;
+			position: relative;
+			width: 100%;
+			border-radius: 0 1.6rem 0 1.6rem;
+
+			@media only screen and (max-width: 768px) {
+				border-radius: 0.8rem;
+				margin: 0 0.8rem;
+			}
+
+			&:nth-child(2) {
+				margin-top: 2.4rem;
+
+				@media only screen and (max-width: 768px) {
+					margin-top: 0;
+				}
+			}
+
+			&:nth-child(3) {
+				margin-top: 0.8rem;
+
+				@media only screen and (max-width: 768px) {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
+	.section3 {
+		background-color: #FFF;
+
+		.main-color {
+			text-align: center;
+		}
+
+		.sub-title {
+			margin-bottom: 1.6rem;
+			text-align: center;
+		}
+
+		.desc {
+			text-align: center;
+
+			@media only screen and (max-width: 768px) {
+				text-align: left;
+			}
+		}
+	}
+
+	.section4 {
+		padding-top: 2rem;
+		background-color: #FFF;
+
+		@media only screen and (max-width: 768px) {
+			padding-top: 1rem;
+		}
+
+		.container {
+			max-width: 92rem;
+		}
+
+		.left-right {
+			column-gap: 3rem;
+
+			@media only screen and (max-width: 768px) {
+				row-gap: 1.6rem;
+			}
+
+			.left-part {
+				width: 12.8rem;
+				flex-shrink: 0;
+
+				@media only screen and (max-width: 768px) {
+					margin: 0 auto;
+				}
+			}
+		}
+	}
+
+	.staff-section {
+		.staff-list {
+			display: block;
+			position: relative;
+			width: 100%;
+
+			.staff-item {
+				display: block;
+				position: relative;
+				width: 100%;
+				padding: 2rem 1.6rem;
+				border-bottom: 1px solid $border_color;
+
+				&:first-child {
+					border-top: 1px solid $border_color;
+				}
+
+				.left-right {
+					column-gap: 4.8rem;
+					align-items: center;
+
+
+					@media only screen and (max-width: 768px) {
+						row-gap: 1.6rem;
+					}
+
+					.left-part {
+						width: 18.8rem;
+						flex-shrink: 0;
+
+						.thumb-img {
+							border-radius: 90rem;
+						}
+					}
+
+					.item-title {
+						margin-bottom: 1.2rem;
+					}
+				}
 			}
 		}
 	}
