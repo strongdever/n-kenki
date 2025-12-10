@@ -20,9 +20,9 @@
     <section class="first-section">
         <div class="container">
             <div class="title-wrapper">
-                <h2 class="title1 font-32-700 main-color">
-                    10tを超える大型機械から<br class="sp">精密機器まで。<br>
-                    工場の未来を動かす、<br class="sp">重量物移設のプロ集団。
+                <h2 class="title1">
+                    <span class="font-28-700 main-color">10tを超える大型機械から<br class="sp">精密機器まで。</span><br>
+                    <span class="font-32-900 main-color">工場の未来を動かす、<br class="sp">重量物移設のプロ集団。</span>
                 </h2>
             </div>
             <p class="desc font-18-500">

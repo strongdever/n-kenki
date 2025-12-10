@@ -6861,8 +6861,12 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 		margin: 0 auto 2.4rem auto;
 
 		* {
-			line-height: 1.4;
+			line-height: 1.5;
 			text-align: center;
+
+			@media only screen and (max-width: 768px) {
+				font-size: 2rem;
+			}
 		}
 
 		.title1 {
@@ -9184,6 +9188,7 @@ $gallery_gap_sp: 0.3rem;
 
 	.flow-section {
 		background-color: $color-light;
+
 		.container {
 			max-width: 88rem;
 		}
@@ -9199,6 +9204,57 @@ $gallery_gap_sp: 0.3rem;
 
 			@media only screen and (max-width: 768px) {
 				margin-bottom: 4rem;
+			}
+		}
+	}
+}
+
+#service-page {
+	.service-section {
+		.service-list {
+			display: block;
+			position: relative;
+			width: 100%;
+
+			.service-item {
+				display: block;
+				position: relative;
+				width: 100%;
+
+				&:not(:last-child) {
+					margin-bottom: 7.2rem;
+
+					@media only screen and (max-width: 768px) {
+						margin-bottom: 5.6rem;
+					}
+				}
+
+				.left-right {
+					align-items: center;
+
+					@media only screen and (max-width: 768px) {
+						row-gap: 2.4rem;
+					}
+
+					.left-part {
+						width: 44%;
+						flex-shrink: 0;
+
+						@media only screen and (max-width: 768px) {
+							width: 100%;
+						}
+					}
+				}
+
+				.btn-more {
+					margin-top: 3.2rem;
+					margin-left: 0;
+
+					@media only screen and (max-width: 768px) {
+						margin-left: auto;
+						margin-top: 2.4rem;
+					}
+				}
 			}
 		}
 	}

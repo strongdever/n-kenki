@@ -6387,8 +6387,13 @@ section {
   margin: 0 auto 2.4rem auto;
 }
 .first-section .title-wrapper * {
-  line-height: 1.4;
+  line-height: 1.5;
   text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .first-section .title-wrapper * {
+    font-size: 2rem;
+  }
 }
 .first-section .title-wrapper .title1 {
   margin-bottom: 1.2rem;
@@ -8524,6 +8529,52 @@ section {
 @media only screen and (max-width: 768px) {
   #heavyequipment-page .flow-section .sub-title {
     margin-bottom: 4rem;
+  }
+}
+
+#service-page .service-section .service-list {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+#service-page .service-section .service-list .service-item {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+#service-page .service-section .service-list .service-item:not(:last-child) {
+  margin-bottom: 7.2rem;
+}
+@media only screen and (max-width: 768px) {
+  #service-page .service-section .service-list .service-item:not(:last-child) {
+    margin-bottom: 5.6rem;
+  }
+}
+#service-page .service-section .service-list .service-item .left-right {
+  align-items: center;
+}
+@media only screen and (max-width: 768px) {
+  #service-page .service-section .service-list .service-item .left-right {
+    row-gap: 2.4rem;
+  }
+}
+#service-page .service-section .service-list .service-item .left-right .left-part {
+  width: 44%;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 768px) {
+  #service-page .service-section .service-list .service-item .left-right .left-part {
+    width: 100%;
+  }
+}
+#service-page .service-section .service-list .service-item .btn-more {
+  margin-top: 3.2rem;
+  margin-left: 0;
+}
+@media only screen and (max-width: 768px) {
+  #service-page .service-section .service-list .service-item .btn-more {
+    margin-left: auto;
+    margin-top: 2.4rem;
   }
 }
 
