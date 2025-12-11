@@ -20,12 +20,16 @@
     <section class="top-section">
         <div class="container">
             <div class="left-right">
-                <div class="left-part thumb-wrapper">
+                <div class="left-part thumb-wrapper pc">
                     <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/recruiterimg.jpg"
                         alt="社員・スタッフ大募集中！">
                 </div>
                 <div class="right-part">
                     <h2 class="main-title font-30-900 main-color">╲社員・スタッフ大募集中！╱</h2>
+                    <div class=" thumb-wrapper sp">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/recruiterimg.jpg"
+                            alt="社員・スタッフ大募集中！">
+                    </div>
                     <p class="desc font-16-500">
                         当社は30年２月に創業３０周年を迎え、さらなるステージへ挑戦をしております！<br>
                         現在、建築事業部ではパナソニックグループ様からのお仕事や、一般のお客様からの受注、重機事業部では日本通運（株）様を中心にたくさんのお仕事をさせて頂いております。<br>

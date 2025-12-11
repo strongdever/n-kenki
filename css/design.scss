@@ -7630,7 +7630,7 @@ $gallery_gap_sp: 0.3rem;
 }
 
 .message-section {
-	padding-top: 5rem;
+	padding-top: 0;
 
 	.section-img {
 		@media only screen and (max-width: 768px) {
@@ -8141,6 +8141,10 @@ $gallery_gap_sp: 0.3rem;
 				display: block;
 				position: relative;
 				width: 100%;
+
+				&:not(:last-child) {
+					border-bottom: 0.1rem solid #e7e4d5	;
+				}
 			}
 
 			.news-item {
@@ -8422,6 +8426,11 @@ $gallery_gap_sp: 0.3rem;
 
 	.business-section {
 		background-color: #FFF;
+		padding-bottom: 14rem;
+
+		@media only screen and (max-width: 768px) {
+			padding-bottom: 5.6rem;
+		}
 
 		.business-list {
 			width: 100%;
@@ -8468,6 +8477,10 @@ $gallery_gap_sp: 0.3rem;
 						transform: unset;
 						border-color: #FFF;
 						top: unset;
+					}
+
+					.thumb-img {
+						aspect-ratio: 400 / 260;
 					}
 				}
 
@@ -8730,6 +8743,10 @@ $gallery_gap_sp: 0.3rem;
 
 #company-page {
 	.top-section {
+		padding-bottom: 14rem;
+		@media only screen and (max-width: 768px) {
+			padding-bottom: 7.2rem;
+		}
 		.top-title {
 			text-align: center;
 			margin-bottom: 4.8rem;
@@ -8970,6 +8987,21 @@ $gallery_gap_sp: 0.3rem;
 		.main-title {
 			text-align: center;
 			white-space: nowrap;
+		}
+
+		.left-right {
+			.thumb-wrapper {
+				width: 40%;
+				flex-shrink: 0;
+
+				@media only screen and (max-width: 768px) {
+					width: 100%;
+					max-width: 28rem;
+					margin-left: auto;
+					margin-right: auto;
+					margin-bottom: 1.6rem;
+				}
+			}
 		}
 	}
 

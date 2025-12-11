@@ -7091,7 +7091,7 @@ section {
 }
 
 .message-section {
-  padding-top: 5rem;
+  padding-top: 0;
 }
 @media only screen and (max-width: 768px) {
   .message-section .section-img {
@@ -7574,6 +7574,9 @@ section {
   position: relative;
   width: 100%;
 }
+#top-page .news-section .news-list li:not(:last-child) {
+  border-bottom: 0.1rem solid #e7e4d5;
+}
 #top-page .news-section .news-list .news-item {
   display: flex;
   column-gap: 4.8rem;
@@ -7830,6 +7833,12 @@ section {
 }
 #top-page .business-section {
   background-color: #FFF;
+  padding-bottom: 14rem;
+}
+@media only screen and (max-width: 768px) {
+  #top-page .business-section {
+    padding-bottom: 5.6rem;
+  }
 }
 #top-page .business-section .business-list {
   width: 100%;
@@ -7874,6 +7883,9 @@ section {
   transform: unset;
   border-color: #FFF;
   top: unset;
+}
+#top-page .business-section .business-list .business-item .thumb-wrapper .thumb-img {
+  aspect-ratio: 400/260;
 }
 #top-page .business-section .business-list .business-item .item-desc {
   padding-right: 2.4rem;
@@ -8109,6 +8121,14 @@ section {
   color: #FFF;
 }
 
+#company-page .top-section {
+  padding-bottom: 14rem;
+}
+@media only screen and (max-width: 768px) {
+  #company-page .top-section {
+    padding-bottom: 7.2rem;
+  }
+}
 #company-page .top-section .top-title {
   text-align: center;
   margin-bottom: 4.8rem;
@@ -8315,6 +8335,19 @@ section {
 #recruit-page .top-section .main-title {
   text-align: center;
   white-space: nowrap;
+}
+#recruit-page .top-section .left-right .thumb-wrapper {
+  width: 40%;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 768px) {
+  #recruit-page .top-section .left-right .thumb-wrapper {
+    width: 100%;
+    max-width: 28rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.6rem;
+  }
 }
 #recruit-page .recruit-section {
   /* Style for items that span the full width (e.g., 仕事内容, 特記事項, 優遇条件) */
