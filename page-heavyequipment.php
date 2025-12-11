@@ -36,7 +36,7 @@
         <div class="container">
             <div class="left-right">
                 <div class="left-part">
-                    <h2 class="main-title font-32-700 main-color">
+                    <h2 class="main-title font-32-900 main-color">
                         <span class="font-28-700 main-color">KEnKIの重機事業とは？</span>
                         工場の「困った」を解決する、<br>
                         それがKEnKIの重機事業です。
@@ -128,12 +128,32 @@
                     </div>
                 </div>
             </li>
+            <li class="service-item list-item">
+                <div class="left-right reverse">
+                    <div class="left-part">
+                        <div class="part-container">
+                            <p class="number-label">
+                                <span class="label font-60-500 font-roboto">SERVICE.</span><span
+                                    class="number font-100-500 font-roboto">4</span>
+                            </p>
+                            <h3 class="main-title font-30-900">機械の解体・搬出</h3>
+                            <p class="desc font-20-500">
+                                不要になった機械や設備の解体・搬出作業です。周辺設備や建物を傷つけないよう安全に解体し、搬出経路を確保しながら、場外へ確実運び出します。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="right-part thumb-wrapper">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice104.jpg"
+                            alt="機械の解体・搬出">
+                    </div>
+                </div>
+            </li>
         </ul>
     </section>
 
-    <section class="concept-section">
+    <section class="concept-section section-type2">
         <div class="container">
-            <h2 class="main-title font-32-700 main-color">重量物とは？</h2>
+            <h2 class="main-title font-32-900 main-color">重量物とは？</h2>
             <ul class="items-list">
                 <li class="list-item">
                     <div class="thumb-wrapper">
@@ -186,9 +206,9 @@
         </div>
     </section>
 
-    <section class="safety-section">
+    <section class="safety-section section-type3">
         <div class="container">
-            <h2 class="main-title font-32-700 main-color">安全への徹底した取り組み</h2>
+            <h2 class="main-title font-32-900 main-color">安全への徹底した取り組み</h2>
             <h3 class="sub-title font-24-700">安全は何よりも優先される。<br class="sp">KEnKIの安全管理体制。</h3>
             <p class="top-desc font-16-500">
                 私たちは、作業スタッフ一人ひとりが「自分の身は自分で守る」「仲間の安全も守る」という強い意識を持つことが、無事故を達成する唯一の道だと考えています。
@@ -224,7 +244,7 @@
 
     <section class="flow-section">
         <div class="container">
-            <h2 class="main-title font-32-700 main-color">問い合わせから<br class="sp">施工完了までの流れ</h2>
+            <h2 class="main-title font-32-900 main-color">問い合わせから<br class="sp">施工完了までの流れ</h2>
             <p class="sub-title font-18-700">元請けとして初めてご依頼いただくお客様も、<br class="sp">安心してご相談ください。</p>
             <ul class="flow-steps">
                 <li class="each-step">
@@ -326,16 +346,16 @@
                 <li class="list-item staff-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff001.jpg"
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff011.jpg"
                                 alt="大石 一生">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-20-700 main-color">
-                                建築事業部 部長　大石 一生 （おおにしいっせい）
+                                重機事業部 部長　佐藤 忠義（さとう ただよし）
                             </h3>
                             <p class="item-desc font-16-500">
-                                趣味・特技：柔道、家族<br>
-                                会社きってのMｒ.マジメ。一途に鉄骨組んで早１５年。 昨今移動式クレーン資格も取得し、オペレーターとしても活躍する建築主任。
+                                趣味・特技：スケボー、スノボ、仕事<br>
+                                重量物を扱うスペシャリスト。今まで手掛けた仕事の中で、歴史に残るような⼯事も数知れず。仕事が趣味と言えてしまう、現職２０年の大ベテラン。プライベートでも若者に負けず劣らずのアグレッシブなスーパー４０代
                             </p>
                         </div>
                     </div>
@@ -343,16 +363,16 @@
                 <li class="list-item staff-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff002.jpg"
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff012.jpg"
                                 alt="上松 幹夫">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-20-700 main-color">
-                                建築事業部 主任　上松 幹夫 （うえまつみきお）
+                                重機事業部 主任　仁多見　哲宇（にたみ　あきたか）
                             </h3>
                             <p class="item-desc font-16-500">
-                                趣味・特技：サッカー、⾞、おしゃれ<br>
-                                職歴１７年のベテラン作業主任。仕事終わりにサッカーまでこなすほどの体⼒の持ち主。技術、体⼒ともに会社を代表するマルチプレーヤー
+                                趣味・特技：格闘技、音楽<br>
+                                会社きってのムードメーカー。仕事もなんでも楽しく、本気でがモットーな熱い中堅リーダー。仁多見主任の名言「空気は読むんじゃない、作るんだ！」
                             </p>
                         </div>
                     </div>

@@ -115,17 +115,20 @@
                             </a>
                         </li>
                         <li class="has_submenu">
-                            <div class="menu-link">
+                            <a class="menu-link" href="<?php bloginfo('url'); ?>/service/">
                                 <span class="font-18-500">事業内容</span>
                                 <div class="btn-extend"></div>
-                            </div>
+                            </a>
                             <div class="sub-menus">
                                 <ul class="sub-menu">
-                                    <a href="<?php bloginfo('url'); ?>/material/" class="sub-menu-link">
+                                    <a href="<?php bloginfo('url'); ?>/service/heavyequipment/" class="sub-menu-link">
                                         <span class="font-18-500">重機事業</span>
                                     </a>
-                                    <a href="<?php bloginfo('url'); ?>/design/" class="sub-menu-link">
+                                    <a href="<?php bloginfo('url'); ?>/service/construction/" class="sub-menu-link">
                                         <span class="font-18-500">建築事業</span>
+                                    </a>
+                                    <a href="<?php bloginfo('url'); ?>/service/heavylift/" class="sub-menu-link">
+                                        <span class="font-18-500">重量物</span>
                                     </a>
                                 </ul>
                             </div>

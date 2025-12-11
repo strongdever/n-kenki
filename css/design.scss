@@ -6287,6 +6287,101 @@ section {
 	}
 }
 
+.section-type2 {
+	.main-title {
+		text-align: center;
+		margin-bottom: 7.2rem;
+
+		@media only screen and (max-width: 768px) {
+			margin-bottom: 4.0rem;
+		}
+	}
+
+	.items-list {
+		position: relative;
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(4, minmax(0px, 1fr));
+		column-gap: 4rem;
+		margin-bottom: 4.4rem;
+
+		@media only screen and (max-width: 768px) {
+			margin-bottom: 3.6rem;
+			grid-template-columns: repeat(1, minmax(0px, 1fr));
+			row-gap: 3rem;
+		}
+
+		.list-item {
+			display: block;
+			position: relative;
+			width: 100%;
+
+			.thumb-wrapper {
+				margin-bottom: 1.6rem;
+
+				.thumb-img {
+					aspect-ratio: 320 / 260;
+				}
+			}
+
+			.item-title {
+				margin-bottom: 0.8rem;
+				line-height: 1.5;
+				text-align: center;
+
+				@media only screen and (max-width: 768px) {
+					font-size: 1.6rem;
+					text-align: left;
+				}
+			}
+		}
+	}
+
+	.other-title {
+		margin-bottom: 1.6rem;
+	}
+}
+
+.section-type3 {
+	.main-title {
+		text-align: center;
+	}
+
+	.sub-title {
+		text-align: center;
+		margin-bottom: 1.6rem;
+		line-height: 1.5;
+	}
+
+	.top-desc {
+		text-align: center;
+		margin-bottom: 4.8rem;
+	}
+
+	.items-list {
+		display: block;
+		position: relative;
+		width: 100%;
+
+		.list-item {
+			display: block;
+			position: relative;
+			width: 100%;
+			padding: 2.4rem 0;
+			border-bottom: 1px solid $main_color;
+
+			&:first-child {
+				border-top: 1px solid $main_color;
+			}
+
+			.item-title {
+				line-height: 1.5;
+				margin-bottom: 1.4rem;
+			}
+		}
+	}
+}
+
 $color-white: #ffffff;
 $color-black: #000000;
 $color-light: #f5f7f8;
@@ -6870,7 +6965,7 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 		}
 
 		.title1 {
-			margin-bottom: 1.2rem;
+			// margin-bottom: 1.2rem;
 
 			@media only screen and (max-width: 768px) {
 				font-size: 2rem;
@@ -8332,7 +8427,7 @@ $gallery_gap_sp: 0.3rem;
 			width: 100%;
 			position: relative;
 			display: grid;
-			grid-template-columns: repeat(2, minmax(0px, 1fr));
+			grid-template-columns: repeat(3, minmax(0px, 1fr));
 			column-gap: 0.1rem;
 
 			@media only screen and (max-width: 768px) {
@@ -8352,8 +8447,8 @@ $gallery_gap_sp: 0.3rem;
 						display: block;
 						position: absolute;
 						width: fit-content;
-						left: 2.8rem;
-						bottom: 4rem;
+						left: 2.0rem;
+						bottom: 2.4rem;
 
 						.item-title {
 							line-height: 1.5;
@@ -9089,105 +9184,12 @@ $gallery_gap_sp: 0.3rem;
 		}
 	}
 
-	.concept-section {
-		.main-title {
-			text-align: center;
-			margin-bottom: 7.2rem;
-
-			@media only screen and (max-width: 768px) {
-				margin-bottom: 4.0rem;
-			}
-		}
-
-		.items-list {
-			position: relative;
-			width: 100%;
-			display: grid;
-			grid-template-columns: repeat(4, minmax(0px, 1fr));
-			column-gap: 4rem;
-			margin-bottom: 4.4rem;
-
-			@media only screen and (max-width: 768px) {
-				margin-bottom: 3.6rem;
-				grid-template-columns: repeat(1, minmax(0px, 1fr));
-				row-gap: 3rem;
-			}
-
-			.list-item {
-				display: block;
-				position: relative;
-				width: 100%;
-
-				.thumb-wrapper {
-					margin-bottom: 1.6rem;
-
-					.thumb-img {
-						aspect-ratio: 320 / 260;
-					}
-				}
-
-				.item-title {
-					margin-bottom: 0.8rem;
-					line-height: 1.5;
-					text-align: center;
-
-					@media only screen and (max-width: 768px) {
-						font-size: 1.6rem;
-						text-align: left;
-					}
-				}
-			}
-		}
-
-		.other-title {
-			margin-bottom: 1.6rem;
-		}
-	}
-
 	.safety-section {
 		background-color: #FFF;
-
-		.main-title {
-			text-align: center;
-		}
-
-		.sub-title {
-			text-align: center;
-			margin-bottom: 1.6rem;
-			line-height: 1.5;
-		}
-
-		.top-desc {
-			text-align: center;
-			margin-bottom: 4.8rem;
-		}
-
-		.items-list {
-			display: block;
-			position: relative;
-			width: 100%;
-
-			.list-item {
-				display: block;
-				position: relative;
-				width: 100%;
-				padding: 2.4rem 0;
-				border-bottom: 1px solid $main_color;
-
-				&:first-child {
-					border-top: 1px solid $main_color;
-				}
-
-				.item-title {
-					line-height: 1.5;
-					margin-bottom: 1.4rem;
-				}
-			}
-		}
 	}
 
 	.flow-section {
-		background-color: $color-light;
+		background-color: #f8faff;
 
 		.container {
 			max-width: 88rem;
@@ -9211,6 +9213,12 @@ $gallery_gap_sp: 0.3rem;
 
 #service-page {
 	.service-section {
+		padding-top: 2rem;
+
+		@media only screen and (max-width: 768px) {
+			padding-top: 1rem;
+		}
+
 		.service-list {
 			display: block;
 			position: relative;
@@ -9256,6 +9264,115 @@ $gallery_gap_sp: 0.3rem;
 					}
 				}
 			}
+		}
+	}
+}
+
+#heavylift-page {
+	.section3 {
+		background-color: #FFF;
+
+		.main-title {
+			margin-bottom: 7.2rem;
+			text-align: center;
+
+			@media only screen and (max-width: 768px) {
+				margin-bottom: 3.0rem;
+			}
+		}
+
+		.items-list {
+			display: block;
+			position: relative;
+			width: 100%;
+
+			.list-item {
+				display: block;
+				position: relative;
+				width: 100%;
+
+				&:not(:last-child) {
+					@media only screen and (max-width: 768px) {
+						margin-bottom: 3.8rem;
+					}
+				}
+
+				.left-right {
+					align-items: center;
+					column-gap: 0;
+
+					.thumb-wrapper {
+						width: 50%;
+						flex-shrink: 0;
+
+						@media only screen and (max-width: 768px) {
+							width: 100%;
+							margin-bottom: 1.6rem;
+						}
+					}
+
+					.right-part {
+						padding: 2rem 5.2rem;
+
+						@media only screen and (max-width: 768px) {
+							padding: 0;
+						}
+					}
+				}
+
+				.item-title {
+					margin-bottom: 2.4rem;
+					line-height: 1.5;
+
+					@media only screen and (max-width: 768px) {
+						margin-bottom: 2rem;
+					}
+				}
+			}
+		}
+	}
+
+	.flow-section {
+		.container {
+			max-width: 88rem;
+		}
+
+		.main-title {
+			text-align: center;
+			margin-bottom: 1.6rem;
+		}
+
+		.sub-title {
+			margin-bottom: 7.2rem;
+			text-align: center;
+
+			@media only screen and (max-width: 768px) {
+				margin-bottom: 4rem;
+			}
+		}
+	}
+
+	.concept-section {
+		background-color: #FFF;
+
+		.main-title {
+			text-align: center;
+			margin-bottom: 2.2rem;
+
+			@media only screen and (max-width: 768px) {
+				margin-bottom: 1.8rem;
+			}
+		}
+
+		.sub-title {
+			text-align: center;
+			margin-bottom: 1.6rem;
+			line-height: 1.5;
+		}
+
+		.top-desc {
+			text-align: center;
+			margin-bottom: 4.8rem;
 		}
 	}
 }

@@ -20,10 +20,10 @@
     <section class="first-section">
         <div class="container">
             <div class="title-wrapper">
-                <h2 class="title1 font-32-700 main-color">
+                <h2 class="title1 font-28-700 main-color">
                     工場の「困った」を解決する、<br class="sp">確かな理由。
                 </h2>
-                <h3 class="title2 font-28-700 main-color">
+                <h3 class="title2 font-32-900 main-color">
                     KEnKIが選ばれ続ける理由は技術力、<br class="sp">安全性、そして実直さにあります。
                 </h3>
             </div>

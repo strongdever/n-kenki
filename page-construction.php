@@ -20,7 +20,7 @@
     <section class="first-section">
         <div class="container">
             <div class="title-wrapper">
-                <h2 class="title1 font-32-700 main-color">
+                <h2 class="title1 font-32-900 main-color">
                     技術力で叶える、<br class="sp">理想の住まい。
                 </h2>
             </div>
@@ -35,7 +35,7 @@
         <div class="container">
             <div class="left-right">
                 <div class="left-part">
-                    <h2 class="main-title font-32-700 main-color">
+                    <h2 class="main-title font-32-900 main-color">
                         <span class="font-28-700 main-color">KEnKIが手掛けるお客様目線の<br class="sp">住まいづくり</span>
                         「確かな技術」を、住まいづくりへ。
                     </h2>
@@ -64,7 +64,7 @@
 
     <section class="section3">
         <div class="container">
-            <h2 class="main-title font-32-700 main-color">
+            <h2 class="main-title font-32-900 main-color">
                 なぜKEnKIがリノベーションを<br class="sp">手掛けるのか
             </h2>
             <h3 class="sub-title font-20-700">

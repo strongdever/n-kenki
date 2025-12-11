@@ -5862,6 +5862,88 @@ section {
   }
 }
 
+.section-type2 .main-title {
+  text-align: center;
+  margin-bottom: 7.2rem;
+}
+@media only screen and (max-width: 768px) {
+  .section-type2 .main-title {
+    margin-bottom: 4rem;
+  }
+}
+.section-type2 .items-list {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0px, 1fr));
+  column-gap: 4rem;
+  margin-bottom: 4.4rem;
+}
+@media only screen and (max-width: 768px) {
+  .section-type2 .items-list {
+    margin-bottom: 3.6rem;
+    grid-template-columns: repeat(1, minmax(0px, 1fr));
+    row-gap: 3rem;
+  }
+}
+.section-type2 .items-list .list-item {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.section-type2 .items-list .list-item .thumb-wrapper {
+  margin-bottom: 1.6rem;
+}
+.section-type2 .items-list .list-item .thumb-wrapper .thumb-img {
+  aspect-ratio: 320/260;
+}
+.section-type2 .items-list .list-item .item-title {
+  margin-bottom: 0.8rem;
+  line-height: 1.5;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .section-type2 .items-list .list-item .item-title {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+}
+.section-type2 .other-title {
+  margin-bottom: 1.6rem;
+}
+
+.section-type3 .main-title {
+  text-align: center;
+}
+.section-type3 .sub-title {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  line-height: 1.5;
+}
+.section-type3 .top-desc {
+  text-align: center;
+  margin-bottom: 4.8rem;
+}
+.section-type3 .items-list {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.section-type3 .items-list .list-item {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid #002A7A;
+}
+.section-type3 .items-list .list-item:first-child {
+  border-top: 1px solid #002A7A;
+}
+.section-type3 .items-list .list-item .item-title {
+  line-height: 1.5;
+  margin-bottom: 1.4rem;
+}
+
 .fancybox-button[disabled] {
   opacity: 0.3 !important;
 }
@@ -6394,9 +6476,6 @@ section {
   .first-section .title-wrapper * {
     font-size: 2rem;
   }
-}
-.first-section .title-wrapper .title1 {
-  margin-bottom: 1.2rem;
 }
 @media only screen and (max-width: 768px) {
   .first-section .title-wrapper .title1 {
@@ -7756,7 +7835,7 @@ section {
   width: 100%;
   position: relative;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0px, 1fr));
+  grid-template-columns: repeat(3, minmax(0px, 1fr));
   column-gap: 0.1rem;
 }
 @media only screen and (max-width: 768px) {
@@ -7777,8 +7856,8 @@ section {
   display: block;
   position: absolute;
   width: fit-content;
-  left: 2.8rem;
-  bottom: 4rem;
+  left: 2rem;
+  bottom: 2.4rem;
 }
 #top-page .business-section .business-list .business-item .thumb-wrapper .title-wrapper .item-title {
   line-height: 1.5;
@@ -8429,91 +8508,11 @@ section {
     padding-top: 2rem;
   }
 }
-#heavyequipment-page .concept-section .main-title {
-  text-align: center;
-  margin-bottom: 7.2rem;
-}
-@media only screen and (max-width: 768px) {
-  #heavyequipment-page .concept-section .main-title {
-    margin-bottom: 4rem;
-  }
-}
-#heavyequipment-page .concept-section .items-list {
-  position: relative;
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0px, 1fr));
-  column-gap: 4rem;
-  margin-bottom: 4.4rem;
-}
-@media only screen and (max-width: 768px) {
-  #heavyequipment-page .concept-section .items-list {
-    margin-bottom: 3.6rem;
-    grid-template-columns: repeat(1, minmax(0px, 1fr));
-    row-gap: 3rem;
-  }
-}
-#heavyequipment-page .concept-section .items-list .list-item {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-#heavyequipment-page .concept-section .items-list .list-item .thumb-wrapper {
-  margin-bottom: 1.6rem;
-}
-#heavyequipment-page .concept-section .items-list .list-item .thumb-wrapper .thumb-img {
-  aspect-ratio: 320/260;
-}
-#heavyequipment-page .concept-section .items-list .list-item .item-title {
-  margin-bottom: 0.8rem;
-  line-height: 1.5;
-  text-align: center;
-}
-@media only screen and (max-width: 768px) {
-  #heavyequipment-page .concept-section .items-list .list-item .item-title {
-    font-size: 1.6rem;
-    text-align: left;
-  }
-}
-#heavyequipment-page .concept-section .other-title {
-  margin-bottom: 1.6rem;
-}
 #heavyequipment-page .safety-section {
   background-color: #FFF;
 }
-#heavyequipment-page .safety-section .main-title {
-  text-align: center;
-}
-#heavyequipment-page .safety-section .sub-title {
-  text-align: center;
-  margin-bottom: 1.6rem;
-  line-height: 1.5;
-}
-#heavyequipment-page .safety-section .top-desc {
-  text-align: center;
-  margin-bottom: 4.8rem;
-}
-#heavyequipment-page .safety-section .items-list {
-  display: block;
-  position: relative;
-  width: 100%;
-}
-#heavyequipment-page .safety-section .items-list .list-item {
-  display: block;
-  position: relative;
-  width: 100%;
-  padding: 2.4rem 0;
-  border-bottom: 1px solid #002A7A;
-}
-#heavyequipment-page .safety-section .items-list .list-item:first-child {
-  border-top: 1px solid #002A7A;
-}
-#heavyequipment-page .safety-section .items-list .list-item .item-title {
-  line-height: 1.5;
-  margin-bottom: 1.4rem;
-}
 #heavyequipment-page .flow-section {
-  background-color: #f5f7f8;
+  background-color: #f8faff;
 }
 #heavyequipment-page .flow-section .container {
   max-width: 88rem;
@@ -8532,6 +8531,14 @@ section {
   }
 }
 
+#service-page .service-section {
+  padding-top: 2rem;
+}
+@media only screen and (max-width: 768px) {
+  #service-page .service-section {
+    padding-top: 1rem;
+  }
+}
 #service-page .service-section .service-list {
   display: block;
   position: relative;
@@ -8576,6 +8583,102 @@ section {
     margin-left: auto;
     margin-top: 2.4rem;
   }
+}
+
+#heavylift-page .section3 {
+  background-color: #FFF;
+}
+#heavylift-page .section3 .main-title {
+  margin-bottom: 7.2rem;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  #heavylift-page .section3 .main-title {
+    margin-bottom: 3rem;
+  }
+}
+#heavylift-page .section3 .items-list {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+#heavylift-page .section3 .items-list .list-item {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  #heavylift-page .section3 .items-list .list-item:not(:last-child) {
+    margin-bottom: 3.8rem;
+  }
+}
+#heavylift-page .section3 .items-list .list-item .left-right {
+  align-items: center;
+  column-gap: 0;
+}
+#heavylift-page .section3 .items-list .list-item .left-right .thumb-wrapper {
+  width: 50%;
+  flex-shrink: 0;
+}
+@media only screen and (max-width: 768px) {
+  #heavylift-page .section3 .items-list .list-item .left-right .thumb-wrapper {
+    width: 100%;
+    margin-bottom: 1.6rem;
+  }
+}
+#heavylift-page .section3 .items-list .list-item .left-right .right-part {
+  padding: 2rem 5.2rem;
+}
+@media only screen and (max-width: 768px) {
+  #heavylift-page .section3 .items-list .list-item .left-right .right-part {
+    padding: 0;
+  }
+}
+#heavylift-page .section3 .items-list .list-item .item-title {
+  margin-bottom: 2.4rem;
+  line-height: 1.5;
+}
+@media only screen and (max-width: 768px) {
+  #heavylift-page .section3 .items-list .list-item .item-title {
+    margin-bottom: 2rem;
+  }
+}
+#heavylift-page .flow-section .container {
+  max-width: 88rem;
+}
+#heavylift-page .flow-section .main-title {
+  text-align: center;
+  margin-bottom: 1.6rem;
+}
+#heavylift-page .flow-section .sub-title {
+  margin-bottom: 7.2rem;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  #heavylift-page .flow-section .sub-title {
+    margin-bottom: 4rem;
+  }
+}
+#heavylift-page .concept-section {
+  background-color: #FFF;
+}
+#heavylift-page .concept-section .main-title {
+  text-align: center;
+  margin-bottom: 2.2rem;
+}
+@media only screen and (max-width: 768px) {
+  #heavylift-page .concept-section .main-title {
+    margin-bottom: 1.8rem;
+  }
+}
+#heavylift-page .concept-section .sub-title {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  line-height: 1.5;
+}
+#heavylift-page .concept-section .top-desc {
+  text-align: center;
+  margin-bottom: 4.8rem;
 }
 
 /*# sourceMappingURL=design.css.map */

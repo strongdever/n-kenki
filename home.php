@@ -195,7 +195,7 @@
             </div>
             <ul class="business-list">
                 <li class="business-item">
-                    <a class="item-href with-circle-arrow" href="<?php bloginfo('url'); ?>//">
+                    <a class="item-href with-circle-arrow" href="<?php bloginfo('url'); ?>/service/heavyequipment/">
                         <div class="thumb-wrapper">
                             <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg001.jpg"
                                 alt="重機事業">
@@ -216,7 +216,7 @@
                     </a>
                 </li>
                 <li class="business-item">
-                    <a class="item-href with-circle-arrow" href="<?php bloginfo('url'); ?>//">
+                    <a class="item-href with-circle-arrow" href="<?php bloginfo('url'); ?>/service/construction/">
                         <div class="thumb-wrapper">
                             <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg002.jpg"
                                 alt="建築事業">
@@ -233,6 +233,27 @@
                         </div>
                         <p class="item-desc font-15-500">
                             重機事業で培った高い技術力と施工管理能力を、皆様の住まいづくりにも。一般住宅のリフォーム・リノベーションを通して、デザイン性と機能性を両立した快適な住空間をご提案します。
+                        </p>
+                    </a>
+                </li>
+                <li class="business-item">
+                    <a class="item-href with-circle-arrow" href="<?php bloginfo('url'); ?>/service/heavylift/">
+                        <div class="thumb-wrapper">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg003.jpg"
+                                alt="重量物">
+                            <div class="title-wrapper">
+                                <h3 class="item-title font-24-700">重量物</h3>
+                                <p class="item-jp-title font-14-700">
+                                    HEAVY LIFT BUSINESS
+                                </p>
+                            </div>
+                            <div class="circle-arrow">
+                                <img class="btn-icon" src="<?php bloginfo('template_url'); ?>/img/rightarrowicon2.svg"
+                                    alt="矢印アイコン">
+                            </div>
+                        </div>
+                        <p class="item-desc font-15-500">
+                            普段あまり目にすることのない「重量屋（じゅうりょうや）」の仕事。 数トンもの巨大な機械を、彼らはどのように運び、設置しているのか？ 知られざるプロフェッショナルな世界と、KEnKIのこだわりをご紹介します。
                         </p>
                     </a>
                 </li>

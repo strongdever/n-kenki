@@ -39,7 +39,7 @@
                 <li class="service-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/serviceimg101.jpg"
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg001.jpg"
                                 alt="重機事業">
                         </div>
                         <div class="right-part">
@@ -58,7 +58,7 @@
                 <li class="service-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/serviceimg102.jpg"
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg002.jpg"
                                 alt="建築事業">
                         </div>
                         <div class="right-part">
@@ -66,10 +66,29 @@
                                 ２．建築事業
                             </h2>
                             <p class="desc font-14-400">
-                                重機事業で培った高い技術力と施工管理能力を、皆様の住まいづくりにも。一般住宅のリフォーム・リノベーションを通して、デザイン性と機能性を両立した快適な住空間をご提案します
+                                重機事業で培った高い技術力と施工管理能力を、皆様の住まいづくりにも。一般住宅のリフォーム・リノベーションを通して、デザイン性と機能性を両立した快適な住空間をご提案します。
                             </p>
                             <a class="btn-more" href="<?php bloginfo('url'); ?>/service/construction">
                                 <span class="btn-text font-16-700">建築事業について詳しく見る</span>
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li class="service-item">
+                    <div class="left-right">
+                        <div class="left-part thumb-wrapper">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg003.jpg"
+                                alt="重量物">
+                        </div>
+                        <div class="right-part">
+                            <h2 class="underline-title font-26-700 main-color">
+                                ３．重量物
+                            </h2>
+                            <p class="desc font-14-400">
+                                普段あまり目にすることのない「重量屋（じゅうりょうや）」の仕事。 数トンもの巨大な機械を、彼らはどのように運び、設置しているのか？ 知られざるプロフェッショナルな世界と、KEnKIのこだわりをご紹介します。
+                            </p>
+                            <a class="btn-more" href="<?php bloginfo('url'); ?>/service/heavylift">
+                                <span class="btn-text font-16-700">重量物について詳しく見る</span>
                             </a>
                         </div>
                     </div>
