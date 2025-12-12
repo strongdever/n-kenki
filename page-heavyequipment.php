@@ -5,8 +5,7 @@
             <h1 class="jp-title font-40-700"><?php the_title(); ?></h1>
             <p class="en-title font-18-700 font-en">HEAVY EQUIPMENT</p>
         </div>
-        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipmentpageimage.jpg"
-            alt="<?php the_title(); ?>">
+        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipmentpageimage.jpg" alt="<?php the_title(); ?>">
     </div>
 
     <div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
@@ -20,12 +19,10 @@
     <section class="first-section">
         <div class="container">
             <div class="title-wrapper">
-                <h2 class="title1">
-                    <span class="font-28-700 main-color">10tを超える大型機械から<br class="sp">精密機器まで。</span><br>
-                    <span class="font-32-900 main-color">工場の未来を動かす、<br class="sp">重量物移設のプロ集団。</span>
-                </h2>
+                <h2 class="title1 large-title font-32-900 main-color">10tを超える大型機械から<br class="sp">精密機器まで。</h2>
+                <h3 class="title2 small-title font-20-700">工場の未来を動かす、重量物移設のプロ集団。</h3>
             </div>
-            <p class="desc font-18-500">
+            <p class="desc font-16-500">
                 NXホールディングス様（旧：日本通運）と歩んだ40年の信頼と実績。<br>
                 発電所や大規模工場で培った最高水準の技術力と安全管理体制で、<br class="pc">お客様の生産ラインを止めない、確実な設備移設を実現します。
             </p>
@@ -36,13 +33,13 @@
         <div class="container">
             <div class="left-right">
                 <div class="left-part">
-                    <h2 class="main-title font-32-900 main-color">
-                        <span class="font-28-700 main-color">KEnKIの重機事業とは？</span>
-                        工場の「困った」を解決する、<br>
-                        それがKEnKIの重機事業です。
-                    </h2>
-                    <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/heavyequipmentimg111.jpg"
-                        alt="KEnKIの重機事業とは？">
+                    <div class="main-title">
+                        <h2 class="title1 large-title font-32-900 main-color">KEnKIの重機事業とは？</h2>
+                        <h3 class="title2 small-title font-20-700">
+                            工場の「困った」を解決する、それがKEnKIの重機事業です。
+                        </h3>
+                    </div>
+                    <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/heavyequipmentimg111.jpg" alt="KEnKIの重機事業とは？">
                     <p class="desc font-16-500">
                         「生産効率化のために、機械のレイアウトを変更したい」 「新しい大型機械を導入するが、搬入から据付まで一括で任せたい」
                         「老朽化したキュービクル（変圧器）を、安全に、短期間で入れ替えたい」<br>
@@ -53,8 +50,7 @@
                     </p>
                 </div>
                 <div class="right-part thumb-wrapper pc">
-                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipmentimg111.jpg"
-                        alt="KEnKIの重機事業とは？">
+                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipmentimg111.jpg" alt="KEnKIの重機事業とは？">
                 </div>
             </div>
         </div>
@@ -73,8 +69,7 @@
                     <div class="left-part">
                         <div class="part-container">
                             <p class="number-label">
-                                <span class="label font-60-500 font-roboto">SERVICE.</span><span
-                                    class="number font-100-500 font-roboto">1</span>
+                                <span class="label font-60-500 font-roboto">SERVICE.</span><span class="number font-100-500 font-roboto">1</span>
                             </p>
                             <h3 class="main-title font-30-900">工場設備の搬入・据付</h3>
                             <p class="desc font-20-500">
@@ -83,8 +78,7 @@
                         </div>
                     </div>
                     <div class="right-part thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice101.jpg"
-                            alt="工場設備の搬入・据付">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice101.jpg" alt="工場設備の搬入・据付">
                     </div>
                 </div>
             </li>
@@ -93,8 +87,7 @@
                     <div class="left-part">
                         <div class="part-container">
                             <p class="number-label">
-                                <span class="label font-60-500 font-roboto">SERVICE.</span><span
-                                    class="number font-100-500 font-roboto">2</span>
+                                <span class="label font-60-500 font-roboto">SERVICE.</span><span class="number font-100-500 font-roboto">2</span>
                             </p>
                             <h3 class="main-title font-30-900">工場内レイアウト変更・移設</h3>
                             <p class="desc font-20-500">
@@ -103,8 +96,7 @@
                         </div>
                     </div>
                     <div class="right-part thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice102.jpg"
-                            alt="工場内レイアウト変更・移設">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice102.jpg" alt="工場内レイアウト変更・移設">
                     </div>
                 </div>
             </li>
@@ -113,8 +105,7 @@
                     <div class="left-part">
                         <div class="part-container">
                             <p class="number-label">
-                                <span class="label font-60-500 font-roboto">SERVICE.</span><span
-                                    class="number font-100-500 font-roboto">3</span>
+                                <span class="label font-60-500 font-roboto">SERVICE.</span><span class="number font-100-500 font-roboto">3</span>
                             </p>
                             <h3 class="main-title font-30-900">電気設備（キュービクル等）<br class="sp">の更新</h3>
                             <p class="desc font-20-500">
@@ -123,8 +114,7 @@
                         </div>
                     </div>
                     <div class="right-part thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice103.jpg"
-                            alt="電気設備（キュービクル等）の更新">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice103.jpg" alt="電気設備（キュービクル等）の更新">
                     </div>
                 </div>
             </li>
@@ -133,8 +123,7 @@
                     <div class="left-part">
                         <div class="part-container">
                             <p class="number-label">
-                                <span class="label font-60-500 font-roboto">SERVICE.</span><span
-                                    class="number font-100-500 font-roboto">4</span>
+                                <span class="label font-60-500 font-roboto">SERVICE.</span><span class="number font-100-500 font-roboto">4</span>
                             </p>
                             <h3 class="main-title font-30-900">機械の解体・搬出</h3>
                             <p class="desc font-20-500">
@@ -143,8 +132,7 @@
                         </div>
                     </div>
                     <div class="right-part thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice104.jpg"
-                            alt="機械の解体・搬出">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipservice104.jpg" alt="機械の解体・搬出">
                     </div>
                 </div>
             </li>
@@ -157,8 +145,7 @@
             <ul class="items-list">
                 <li class="list-item">
                     <div class="thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipconcept101.jpg"
-                            alt="産業機械">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipconcept101.jpg" alt="産業機械">
                     </div>
                     <h3 class="item-title font-18-700 main-color">産業機械</h3>
                     <p class="item-desc font-14-400">
@@ -167,8 +154,7 @@
                 </li>
                 <li class="list-item">
                     <div class="thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipconcept102.jpg"
-                            alt="業務用エアコン室外機">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipconcept102.jpg" alt="業務用エアコン室外機">
                     </div>
                     <h3 class="item-title font-18-700 main-color">業務用エアコン室外機</h3>
                     <p class="item-desc font-14-400">
@@ -177,8 +163,7 @@
                 </li>
                 <li class="list-item">
                     <div class="thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipconcept103.jpg"
-                            alt="キュービクル">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipconcept103.jpg" alt="キュービクル">
                     </div>
                     <h3 class="item-title font-18-700 main-color">キュービクル</h3>
                     <p class="item-desc font-14-400">
@@ -187,8 +172,7 @@
                 </li>
                 <li class="list-item">
                     <div class="thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipconcept104.jpg"
-                            alt="トランス">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyequipconcept104.jpg" alt="トランス">
                     </div>
                     <h3 class="item-title font-18-700 main-color">トランス</h3>
                     <p class="item-desc font-14-400">
@@ -208,8 +192,10 @@
 
     <section class="safety-section section-type3">
         <div class="container">
-            <h2 class="main-title font-32-900 main-color">安全への徹底した取り組み</h2>
-            <h3 class="sub-title font-24-700">安全は何よりも優先される。<br class="sp">KEnKIの安全管理体制。</h3>
+            <div class="main-title">
+            <h2 class="title1 large-title font-32-900 main-color">安全への徹底した取り組み</h2>
+            <h3 class="title2 small-title font-20-700">安全は何よりも優先される。<br class="sp">KEnKIの安全管理体制。</h3>
+            </div>
             <p class="top-desc font-16-500">
                 私たちは、作業スタッフ一人ひとりが「自分の身は自分で守る」「仲間の安全も守る」という強い意識を持つことが、無事故を達成する唯一の道だと考えています。
             </p>
@@ -245,7 +231,7 @@
     <section class="flow-section">
         <div class="container">
             <h2 class="main-title font-32-900 main-color">問い合わせから<br class="sp">施工完了までの流れ</h2>
-            <p class="sub-title font-18-700">元請けとして初めてご依頼いただくお客様も、<br class="sp">安心してご相談ください。</p>
+            <p class="sub-title font-18-500">元請けとして初めてご依頼いただくお客様も、<br class="sp">安心してご相談ください。</p>
             <ul class="flow-steps">
                 <li class="each-step">
                     <div class="step-wrapper">
@@ -346,8 +332,7 @@
                 <li class="list-item staff-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff011.jpg"
-                                alt="大石 一生">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff011.jpg" alt="大石 一生">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-20-700 main-color">
@@ -363,8 +348,7 @@
                 <li class="list-item staff-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff012.jpg"
-                                alt="上松 幹夫">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff012.jpg" alt="上松 幹夫">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-20-700 main-color">

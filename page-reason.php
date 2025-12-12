@@ -20,17 +20,18 @@
     <section class="first-section">
         <div class="container">
             <div class="title-wrapper">
-                <h2 class="title1 font-28-700 main-color">
+                <h2 class="title1 large-title font-32-900 main-color">
                     工場の「困った」を解決する、<br class="sp">確かな理由。
                 </h2>
-                <h3 class="title2 font-32-900 main-color">
+                <h3 class="title2 small-title font-20-700">
                     KEnKIが選ばれ続ける理由は技術力、<br class="sp">安全性、そして実直さにあります。
                 </h3>
             </div>
-            <p class="desc font-18-500">
+            <p class="desc font-16-500">
                 工場の生産ラインや発電所、変電所といった重要インフラ。<br>
                 そこでの作業は、単に「重いものを運ぶ」だけではありません。<br>
-                数千万円、時には億を超える高額な精密機械を、ミリ単位の精度で、かつ「絶対安全」に設置する。それは、極めて高度な専門技術と、徹底した管理体制、そして何よりも強い責任感がなければ成し得ません。<br>
+                数千万円、時には億を超える高額な精密機械を、ミリ単位の精度で、かつ「絶対安全」に設置する。<br>
+                それは、極めて高度な専門技術と、徹底した管理体制、そして何よりも強い責任感がなければ成し得ません。<br>
                 私たちがお客様から「任せてよかった」とのお言葉をいただけるのは、これら3つの強みを愚直に追求し続けてきたからに他なりません。
             </p>
         </div>
@@ -52,8 +53,8 @@
                                 <span class="label font-60-500 font-roboto">POINT.</span><span
                                     class="number font-100-500 font-roboto">1</span>
                             </p>
-                            <h3 class="main-title font-30-900">圧倒的な技術力と実績</h3>
-                            <h4 class="sub-title font-24-700">NXホールディングス様のパートナーとして40年。</h4>
+                            <h3 class="main-title large-title font-32-900">圧倒的な技術力と実績</h3>
+                            <h4 class="sub-title small-title font-20-700">NXホールディングス様のパートナーとして40年。</h4>
                             <p class="desc font-15-500">
                                 KEnKIの技術力は、日本を代表する物流企業であるNXホールディングス（旧：日本通運）様の厳格な基準に応え続けることで磨かれてきました。<br>
                                 40年弱にわたるパートナーシップのもと、発電所、大規模工場、変電所など、極めて高い技術力と安全性が求められる現場を数多く経験。そこで培った「一朝一夕では真似のできないノウハウ」こそが、私たちの最大の財産です。<br>
@@ -75,8 +76,8 @@
                                 <span class="label font-60-500 font-roboto">POINT.</span><span
                                     class="number font-100-500 font-roboto">2</span>
                             </p>
-                            <h3 class="main-title font-30-900">譲れない「安全」へのこだわり</h3>
-                            <h4 class="sub-title font-24-700">「安全なくして品質は守れない」</h4>
+                            <h3 class="main-title large-title font-32-900">譲れない「安全」へのこだわり</h3>
+                            <h4 class="sub-title small-title font-20-700">「安全なくして品質は守れない」</h4>
                             <p class="desc font-15-500">
                                 私たちの仕事は、一瞬のミスが人命に関わるだけでなく、お客様の大切な資産である高額な機械や設備を危険にさらすことにも繋がります。<br>
                                 だからこそ、私たちは「安全なくして品質は守れない」という信念のもと、安全管理を何よりも最優先します。<br>
@@ -100,8 +101,8 @@
                                 <span class="label font-60-500 font-roboto">POINT.</span><span
                                     class="number font-100-500 font-roboto">3</span>
                             </p>
-                            <h3 class="main-title font-30-900">「手が抜けない」実直な社風</h3>
-                            <h4 class="sub-title font-24-700">私たちは、妥協した仕事ができません。</h4>
+                            <h3 class="main-title large-title font-32-900">「手が抜けない」実直な社風</h3>
+                            <h4 class="sub-title small-title font-20-700">私たちは、妥協した仕事ができません。</h4>
                             <p class="desc font-15-500">
                                 下請けとして長年技術を磨いてきた私たちは、良くも悪くも「手を抜く」ことが苦手です。<br>
                                 お客様の課題に対し、言われた通りの作業をこなすだけでは不十分だと考えます。<br>

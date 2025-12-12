@@ -5,8 +5,7 @@
             <h1 class="jp-title font-40-700"><?php the_title(); ?></h1>
             <p class="en-title font-18-700 font-en">HEAVY LIFT</p>
         </div>
-        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftpageimage.jpg"
-            alt="<?php the_title(); ?>">
+        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftpageimage.jpg" alt="<?php the_title(); ?>">
     </div>
 
     <div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
@@ -20,12 +19,10 @@
     <section class="first-section">
         <div class="container">
             <div class="title-wrapper">
-                <h2 class="title1">
-                    <span class="font-28-700 main-color">数トンの巨体を、ミリ単位で操る。</span><br>
-                    <span class="font-32-900 main-color">それが「重量屋」の仕事です。</span>
-                </h2>
+                <h2 class="title1 large-title font-32-900 main-color">数トンの巨体を、<br class="sp">ミリ単位で操る。</h2>
+                <h3 class="title2 small-title font-20-700">それが「重量屋」の仕事です。</h3>
             </div>
-            <p class="desc font-18-500">
+            <p class="desc font-16-500">
                 重いものを運ぶだけではない。設置、組立、レイアウト変更まで。<br>
                 工場の心臓部を動かす、専門技術集団についてご紹介します。
             </p>
@@ -36,13 +33,14 @@
         <div class="container">
             <div class="left-right">
                 <div class="left-part">
-                    <h2 class="main-title font-32-900 main-color">
-                        <span class="font-28-700 main-color">「重量屋」とは？</span>
-                        工場の「引っ越し屋さん」であり、<br>
-                        「機械のお医者さん」でもあります。
-                    </h2>
-                    <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg111.jpg"
-                        alt="「重量屋」とは？">
+                    <div class="main-title">
+                        <h2 class="title1 large-title font-32-900 main-color">「重量屋」とは？</h2>
+                        <h3 class="title2 small-title font-20-700">
+                            工場の「引っ越し屋さん」であり、<br>
+                            「機械のお医者さん」でもあります。
+                        </h3>
+                    </div>
+                    <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg111.jpg" alt="「重量屋」とは？">
                     <p class="desc font-16-500">
                         一般的にはあまり馴染みがないかもしれませんが、「重量屋（じゅうりょうや）」または「重量鳶（じゅうりょうとび）」と呼ばれる私たちは、建設業の中でも極めて特殊な専門職です。<br>
                         私たちの扱う荷物は、人の手では到底持ち上げることのできない、数トンから数百トンにも及ぶ巨大な機械設備です。<br>
@@ -51,8 +49,7 @@
                     </p>
                 </div>
                 <div class="right-part thumb-wrapper pc">
-                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg111.jpg"
-                        alt="「重量屋」とは？">
+                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg111.jpg" alt="「重量屋」とは？">
                 </div>
             </div>
         </div>
@@ -65,14 +62,12 @@
                 <li class="list-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper pc">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg121.jpg"
-                                alt="産業機械・工作機械">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg121.jpg" alt="産業機械・工作機械">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-24-700 main-color">1. 産業機械・工作機械</h3>
                             <div class="thumb-wrapper sp">
-                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg121.jpg"
-                                    alt="産業機械・工作機械">
+                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg121.jpg" alt="産業機械・工作機械">
                             </div>
                             <p class="item-desc font-14-400">
                                 新規設備導入に伴う、大型機械の搬入・開梱・据付作業です。クリーンルーム内の精密機械から、10tを超える大型プレス機まで、建屋や周辺設備に細心の注意を払いながら、ミリ単位の精度で設置します。
@@ -83,14 +78,12 @@
                 <li class="list-item">
                     <div class="left-right reverse">
                         <div class="left-part thumb-wrapper pc">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg122.jpg"
-                                alt="電気設備（キュービクル・トランス）">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg122.jpg" alt="電気設備（キュービクル・トランス）">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-24-700 main-color">2. 電気設備（キュービクル・トランス）</h3>
                             <div class="thumb-wrapper sp">
-                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg122.jpg"
-                                    alt="電気設備（キュービクル・トランス）">
+                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg122.jpg" alt="電気設備（キュービクル・トランス）">
                             </div>
                             <p class="item-desc font-14-400">
                                 生産ラインの効率化や変更に伴う、既存設備の移設・再配置作業です。工場の稼働停止時間を最小限に抑えるため、お客様の生産計画に合わせたスピーディーかつ確実な作業計画をご提案します。
@@ -101,14 +94,12 @@
                 <li class="list-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper pc">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg123.jpg"
-                                alt="空調設備・室外機">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg123.jpg" alt="空調設備・室外機">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-24-700 main-color">3. 空調設備・室外機</h3>
                             <div class="thumb-wrapper sp">
-                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg123.jpg"
-                                    alt="空調設備・室外機">
+                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg123.jpg" alt="空調設備・室外機">
                             </div>
                             <p class="item-desc font-14-400">
                                 工場の心臓部である高圧受電設備（キュービクル）や変圧器、発電機などの入れ替え作業です。専門知識が必要な電気設備の取り扱いはもちろん、重量物としての搬入・搬出・据付まで一貫して安全に実施します。
@@ -119,14 +110,12 @@
                 <li class="list-item">
                     <div class="left-right reverse">
                         <div class="left-part thumb-wrapper pc">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg124.jpg"
-                                alt="その他（精密機器・タンク等）">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg124.jpg" alt="その他（精密機器・タンク等）">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-24-700 main-color">4. その他（精密機器・タンク等）</h3>
                             <div class="thumb-wrapper sp">
-                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg124.jpg"
-                                    alt="その他（精密機器・タンク等）">
+                                <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyliftimg124.jpg" alt="その他（精密機器・タンク等）">
                             </div>
                             <p class="item-desc font-14-400">
                                 不要になった機械や設備の解体・搬出作業です。周辺設備や建物を傷つけないよう安全に解体し、搬出経路を確保しながら、場外へ確実運び出します。
@@ -141,7 +130,7 @@
     <section class="flow-section">
         <div class="container">
             <h2 class="main-title font-32-900 main-color">重量屋の具体的な仕事内容</h2>
-            <p class="sub-title font-18-700">運ぶだけではない、多彩な技術。</p>
+            <p class="sub-title font-20-700">運ぶだけではない、多彩な技術。</p>
             <ul class="flow-steps">
                 <li class="each-step">
                     <div class="step-wrapper">
@@ -216,7 +205,7 @@
     <section class="concept-section section-type2">
         <div class="container">
             <h2 class="main-title font-32-900 main-color">重量屋の仕事道具</h2>
-            <h3 class="sub-title font-24-700">巨体を動かす、プロの「相棒」たち</h3>
+            <h3 class="sub-title font-20-700">巨体を動かす、プロの「相棒」たち</h3>
             <p class="top-desc font-16-500">
                 テコの原理や摩擦軽減など、物理の法則を応用した専門道具を使いこなすことで、<br class="pc">
                 私たちは巨大な機械を意のままに操ります。
@@ -224,8 +213,7 @@
             <ul class="items-list">
                 <li class="list-item">
                     <div class="thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyeliftconcept101.jpg"
-                            alt="爪付きジャッキ">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyeliftconcept101.jpg" alt="爪付きジャッキ">
                     </div>
                     <h3 class="item-title font-18-700 main-color">爪付きジャッキ</h3>
                     <p class="item-desc font-14-400">
@@ -234,8 +222,7 @@
                 </li>
                 <li class="list-item">
                     <div class="thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyeliftconcept102.jpg"
-                            alt="マシンローラー">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyeliftconcept102.jpg" alt="マシンローラー">
                     </div>
                     <h3 class="item-title font-18-700 main-color">
                         マシンローラー<br>
@@ -247,8 +234,7 @@
                 </li>
                 <li class="list-item">
                     <div class="thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyeliftconcept103.jpg"
-                            alt="チルホール">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyeliftconcept103.jpg" alt="チルホール">
                     </div>
                     <h3 class="item-title font-18-700 main-color">
                         チルホール<br>
@@ -260,8 +246,7 @@
                 </li>
                 <li class="list-item">
                     <div class="thumb-wrapper">
-                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyeliftconcept104.jpg"
-                            alt="ハンドリフト">
+                        <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/heavyeliftconcept104.jpg" alt="ハンドリフト">
                     </div>
                     <h3 class="item-title font-18-700 main-color">
                         ハンドリフト<br>

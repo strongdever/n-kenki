@@ -5,8 +5,7 @@
             <h1 class="jp-title font-40-700"><?php the_title(); ?></h1>
             <p class="en-title font-18-700 font-en">CONSTRUCTION</p>
         </div>
-        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/constructionpageimage.jpg"
-            alt="<?php the_title(); ?>">
+        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/constructionpageimage.jpg" alt="<?php the_title(); ?>">
     </div>
 
     <div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
@@ -35,12 +34,11 @@
         <div class="container">
             <div class="left-right">
                 <div class="left-part">
-                    <h2 class="main-title font-32-900 main-color">
-                        <span class="font-28-700 main-color">KEnKIが手掛けるお客様目線の<br class="sp">住まいづくり</span>
-                        「確かな技術」を、住まいづくりへ。
-                    </h2>
-                    <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/constructionimg111.jpg"
-                        alt="「確かな技術」を、住まいづくりへ。">
+                    <div class="main-title">
+                        <h2 class="title1 large-title font-32-900 main-color">KEnKIが手掛けるお客様目線の<br class="sp">住まいづくり</h2>
+                        <h3 class="title2 small-title font-20-700">「確かな技術」を、住まいづくりへ。</h3>
+                    </div>
+                    <img class="thumb-img sp" src="<?php bloginfo('template_url'); ?>/img/constructionimg111.jpg" alt="「確かな技術」を、住まいづくりへ。">
                     <p class="desc font-16-500">
                         KEnKIは、重機事業で培った高度な技術力と、安全を最優先する実直な仕事ぶりを、一般のお客様（BtoC）向けの住宅リノベーション事業にも活かしています。<br>
                         <span class="sentences-paragraph"></span>
@@ -49,8 +47,7 @@
                     </p>
                 </div>
                 <div class="right-part thumb-wrapper pc">
-                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/constructionimg111.jpg"
-                        alt="「確かな技術」を、住まいづくりへ。">
+                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/constructionimg111.jpg" alt="「確かな技術」を、住まいづくりへ。">
                 </div>
             </div>
         </div>
@@ -64,12 +61,14 @@
 
     <section class="section3">
         <div class="container">
-            <h2 class="main-title font-32-900 main-color">
-                なぜKEnKIがリノベーションを<br class="sp">手掛けるのか
-            </h2>
-            <h3 class="sub-title font-20-700">
-                「確かな技術」と「実直な姿勢」を、<br class="sp">住まいづくりへ。
-            </h3>
+            <div class="main-title">
+                <h2 class="title1 large-title font-32-900 main-color">
+                    なぜKEnKIがリノベーションを<br class="sp">手掛けるのか
+                </h2>
+                <h3 class="title2 small-title font-20-700">
+                    「確かな技術」と「実直な姿勢」を、<br class="sp">住まいづくりへ。
+                </h3>
+            </div>
             <p class="desc font-16-500">
                 建築事業では2004年（平成16年）からパナホーム（株）様との請負契約をきっかけに、建築事業部を設立し専属でお仕事をさせていただいてきました。<br>
                 KEnKIは、工場の大型設備や重量物の扱いで培った、高度な技術力と徹底した安全管理ノウハウを持っています。<br>
@@ -84,8 +83,7 @@
         <div class="container">
             <div class="left-right">
                 <div class="left-part thumb-wrapper">
-                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/otherlogo.svg"
-                        alt="otherlogo.svg" alt="豊富な施工事例や詳細は、専門サイトをご覧ください">
+                    <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/otherlogo.svg" alt="otherlogo.svg" alt="豊富な施工事例や詳細は、専門サイトをご覧ください">
                 </div>
                 <div class="right-part">
                     <h2 class="main-title font-20-700">
@@ -113,8 +111,7 @@
                 <li class="list-item staff-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff001.jpg"
-                                alt="大石 一生">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff001.jpg" alt="大石 一生">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-20-700 main-color">
@@ -130,8 +127,7 @@
                 <li class="list-item staff-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff002.jpg"
-                                alt="上松 幹夫">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/staff002.jpg" alt="上松 幹夫">
                         </div>
                         <div class="right-part">
                             <h3 class="item-title font-20-700 main-color">

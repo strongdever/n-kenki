@@ -6345,6 +6345,11 @@ section {
 .section-type3 {
 	.main-title {
 		text-align: center;
+		margin-bottom: 6.4rem;
+
+		@media only screen and (max-width: 768px) {
+			margin-bottom: 4rem;
+		}
 	}
 
 	.sub-title {
@@ -6948,34 +6953,40 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 	}
 }
 
+.large-title {
+	line-height: 1.5;
+
+	@media only screen and (max-width: 768px) {
+		font-size: 2.2rem;
+	}
+}
+
+.small-title {
+	line-height: 1.5;
+
+	@media only screen and (max-width: 768px) {
+		font-size: 1.6rem;
+	}
+}
+
+.title2 {
+	margin-top: 1.4rem;
+}
+
 .first-section {
 	.title-wrapper {
 		display: block;
 		position: relative;
 		width: fit-content;
-		margin: 0 auto 2.4rem auto;
+		margin: 0 auto 4rem auto;
+
+		@media only screen and (max-width: 768px) {
+			margin-bottom: 3rem;
+		}
 
 		* {
 			line-height: 1.5;
 			text-align: center;
-
-			@media only screen and (max-width: 768px) {
-				font-size: 2rem;
-			}
-		}
-
-		.title1 {
-			// margin-bottom: 1.2rem;
-
-			@media only screen and (max-width: 768px) {
-				font-size: 2rem;
-			}
-		}
-
-		.title2 {
-			@media only screen and (max-width: 768px) {
-				font-size: 1.8rem;
-			}
 		}
 	}
 
@@ -7097,6 +7108,7 @@ $box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
 
 		@media only screen and (max-width: 768px) {
 			font-size: 2rem;
+			margin-bottom: 2.4rem;
 		}
 
 		span {
@@ -8143,7 +8155,7 @@ $gallery_gap_sp: 0.3rem;
 				width: 100%;
 
 				&:not(:last-child) {
-					border-bottom: 0.1rem solid #e7e4d5	;
+					border-bottom: 0.1rem solid #e7e4d5;
 				}
 			}
 
@@ -8744,9 +8756,11 @@ $gallery_gap_sp: 0.3rem;
 #company-page {
 	.top-section {
 		padding-bottom: 14rem;
+
 		@media only screen and (max-width: 768px) {
 			padding-bottom: 7.2rem;
 		}
+
 		.top-title {
 			text-align: center;
 			margin-bottom: 4.8rem;
@@ -9158,8 +9172,12 @@ $gallery_gap_sp: 0.3rem;
 	.section3 {
 		background-color: #FFF;
 
-		.main-color {
+		.main-title {
 			text-align: center;
+
+			@media only screen and (max-width: 768px) {
+				margin-bottom: 2.4rem;
+			}
 		}
 
 		.sub-title {
@@ -9389,10 +9407,10 @@ $gallery_gap_sp: 0.3rem;
 
 		.main-title {
 			text-align: center;
-			margin-bottom: 2.2rem;
+			margin-bottom: 1.4rem;
 
 			@media only screen and (max-width: 768px) {
-				margin-bottom: 1.8rem;
+				margin-bottom: 1.0rem;
 			}
 		}
 

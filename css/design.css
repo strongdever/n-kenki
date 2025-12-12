@@ -5914,6 +5914,12 @@ section {
 
 .section-type3 .main-title {
   text-align: center;
+  margin-bottom: 6.4rem;
+}
+@media only screen and (max-width: 768px) {
+  .section-type3 .main-title {
+    margin-bottom: 4rem;
+  }
 }
 .section-type3 .sub-title {
   text-align: center;
@@ -6462,30 +6468,42 @@ section {
   }
 }
 
+.large-title {
+  line-height: 1.5;
+}
+@media only screen and (max-width: 768px) {
+  .large-title {
+    font-size: 2.2rem;
+  }
+}
+
+.small-title {
+  line-height: 1.5;
+}
+@media only screen and (max-width: 768px) {
+  .small-title {
+    font-size: 1.6rem;
+  }
+}
+
+.title2 {
+  margin-top: 1.4rem;
+}
+
 .first-section .title-wrapper {
   display: block;
   position: relative;
   width: fit-content;
-  margin: 0 auto 2.4rem auto;
+  margin: 0 auto 4rem auto;
+}
+@media only screen and (max-width: 768px) {
+  .first-section .title-wrapper {
+    margin-bottom: 3rem;
+  }
 }
 .first-section .title-wrapper * {
   line-height: 1.5;
   text-align: center;
-}
-@media only screen and (max-width: 768px) {
-  .first-section .title-wrapper * {
-    font-size: 2rem;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .first-section .title-wrapper .title1 {
-    font-size: 2rem;
-  }
-}
-@media only screen and (max-width: 768px) {
-  .first-section .title-wrapper .title2 {
-    font-size: 1.8rem;
-  }
 }
 .first-section .desc {
   line-height: 2.1;
@@ -6606,6 +6624,7 @@ section {
 @media only screen and (max-width: 768px) {
   .service-second-section .main-title {
     font-size: 2rem;
+    margin-bottom: 2.4rem;
   }
 }
 .service-second-section .main-title span {
@@ -8488,8 +8507,13 @@ section {
 #construction-page .section3 {
   background-color: #FFF;
 }
-#construction-page .section3 .main-color {
+#construction-page .section3 .main-title {
   text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  #construction-page .section3 .main-title {
+    margin-bottom: 2.4rem;
+  }
 }
 #construction-page .section3 .sub-title {
   margin-bottom: 1.6rem;
@@ -8697,11 +8721,11 @@ section {
 }
 #heavylift-page .concept-section .main-title {
   text-align: center;
-  margin-bottom: 2.2rem;
+  margin-bottom: 1.4rem;
 }
 @media only screen and (max-width: 768px) {
   #heavylift-page .concept-section .main-title {
-    margin-bottom: 1.8rem;
+    margin-bottom: 1rem;
   }
 }
 #heavylift-page .concept-section .sub-title {

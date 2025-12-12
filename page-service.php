@@ -5,8 +5,7 @@
             <h1 class="jp-title font-40-700"><?php the_title(); ?></h1>
             <p class="en-title font-18-700 font-en">SERVICE</p>
         </div>
-        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/servicepageimage.jpg"
-            alt="<?php the_title(); ?>">
+        <img class="mainview-img" src="<?php bloginfo('template_url'); ?>/img/servicepageimage.jpg" alt="<?php the_title(); ?>">
     </div>
 
     <div class="breadcrumb" vocab="http://schema.org/" typeof="BreadcrumbList">
@@ -20,12 +19,10 @@
     <section class="first-section">
         <div class="container">
             <div class="title-wrapper">
-                <h2 class="title1">
-                    <span class="font-28-700 main-color">多彩な技術で、あらゆる<br class="sp">「課題」に応える。</span><br>
-                    <span class="font-32-900 main-color">KEnKIは、お客様の「困った」を解決するプロフェッショナル集団です。</span>
-                </h2>
+                <h2 class="title1 large-title font-32-900 main-color">多彩な技術で、あらゆる<br class="sp">「課題」に応える。</h2>
+                <h3 class="title2 small-title font-20-700">KEnKIは、お客様の「困った」を解決するプロフェッショナル集団です。</h3>
             </div>
-            <p class="desc font-18-500">
+            <p class="desc font-16-500">
                 株式会社KEnKIは、「重量物移設」という高度な専門技術を核としながら、そのノウハウを多角的に展開しています。<br>
                 工場の生産ラインの効率化から、皆様の快適な住まいづくり、そして現場で必要となる機材のサポートまで。<br>
                 事業分野は多岐にわたりますが、すべての根底にあるのは「安全を第一に、お客様の課題を解決する」という実直な姿勢です。 各分野のプロフェッショナルが、貴社の、そしてあなたの「困った」に真摯にお応えします。
@@ -39,8 +36,7 @@
                 <li class="service-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg001.jpg"
-                                alt="重機事業">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg001.jpg" alt="重機事業">
                         </div>
                         <div class="right-part">
                             <h2 class="underline-title font-26-700 main-color">
@@ -58,8 +54,7 @@
                 <li class="service-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg002.jpg"
-                                alt="建築事業">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg002.jpg" alt="建築事業">
                         </div>
                         <div class="right-part">
                             <h2 class="underline-title font-26-700 main-color">
@@ -77,8 +72,7 @@
                 <li class="service-item">
                     <div class="left-right">
                         <div class="left-part thumb-wrapper">
-                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg003.jpg"
-                                alt="重量物">
+                            <img class="thumb-img" src="<?php bloginfo('template_url'); ?>/img/businessimg003.jpg" alt="重量物">
                         </div>
                         <div class="right-part">
                             <h2 class="underline-title font-26-700 main-color">
